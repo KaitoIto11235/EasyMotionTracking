@@ -1,0 +1,1 @@
+C:\Users\itouk\EasyMotionTracking\VS_build\EasyMotionTracking_Unity\EasyMotionTracking_Unity.vcxproj;arm64
