@@ -6,6 +6,92 @@
   
   	Output directory: C:\Users\itouk\EasyMotionTracking\VS_build\build\bin\ARM64\Release
   	Cache directory: C:\Users\itouk\EasyMotionTracking\VS_build\build\obj\il2cppOutputProject\ARM64\Release
-  ObjectFiles: 688 of which compiled: 0
-  Total compilation time: 1680 milliseconds.
-  Cleaned up 1 object files.
+  Il2CppGenericMethodPointerTable.cpp
+  Il2CppCCalculateTypeValues1.cpp
+  Il2CppTypeDefinitions.c
+  Il2CppInteropDataTable.cpp
+  Il2CppMetadataUsage.c
+  Il2CppCCalculateTypeValues.cpp
+  Il2CppCCalculateFieldValues1.cpp
+  Il2CppCCalculateFieldValues.cpp
+  Microsoft.MixedReality.OpenXR.cpp
+  GenericMethods__12.cpp
+  Generics.cpp
+  UnityEngine.CoreModule__1.cpp
+  Il2CppPCCWMethods.cpp
+  mscorlib__8.cpp
+  Generics__22.cpp
+  Il2CppCCalculateFieldValues2.cpp
+  Generics__4.cpp
+  Il2CppGenericMethodTable.c
+  Il2CppCCWs__31.cpp
+  Microsoft.MixedReality.Toolkit.Gltf.cpp
+  Il2CppGenericMethodDefinitions.c
+  UnityEngine.CoreModule_Attr.cpp
+  Il2CppCCWs__93.cpp
+  System.Runtime.WindowsRuntime.cpp
+  Il2CppCCWs__78.cpp
+  Il2CppCCWs__104.cpp
+  WindowsRuntimeMetadata.cpp
+  Il2CppCCWs__105.cpp
+  Il2CppCCWs__38.cpp
+  Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.cpp
+  UnityEngine.CoreModule_CodeGen.c
+  Generics__23.cpp
+  Microsoft.MixedReality.Toolkit.SDK__8.cpp
+  Il2CppCCWs__69.cpp
+  Il2CppCCWs__21.cpp
+  Il2CppCCTypeValuesTable.cpp
+  Il2CppCCWs__23.cpp
+  Il2CppCCWs__22.cpp
+  Il2CppCCWs__4.cpp
+  Il2CppCCWs__103.cpp
+  Il2CppCCWs.cpp
+  Il2CppCCWs__94.cpp
+  Il2CppCCWs__28.cpp
+  Il2CppCCWs__20.cpp
+  Il2CppCCWs__100.cpp
+  Il2CppCCWs__24.cpp
+  Il2CppCCWs__37.cpp
+  Il2CppCCWs__99.cpp
+  Il2CppCCWs__26.cpp
+  Il2CppCCWs__74.cpp
+  Il2CppCCWs__73.cpp
+  Il2CppCCWs__3.cpp
+  Il2CppCCWs__29.cpp
+  Il2CppCCWs__25.cpp
+  Il2CppCCFieldValuesTable.cpp
+  Il2CppCCWs__27.cpp
+  Il2CppCCWs__98.cpp
+  UnityEngine.AnimationModule.cpp
+  Il2CppCCWs__96.cpp
+  Il2CppCCWs__95.cpp
+  Il2CppCCWs__101.cpp
+  Il2CppCCWs__97.cpp
+  Il2CppCCWs__61.cpp
+  Il2CppCCWs__30.cpp
+  WindowsRuntimeMetadata_CodeGen.c
+  UnityEngine.AnimationModule_CodeGen.c
+  UnityEngine.AnimationModule_Attr.cpp
+  Il2CppCCWs__102.cpp
+  Assembly-CSharp.cpp
+  Il2CppCodeRegistration.cpp
+  Assembly-CSharp_Attr.cpp
+  Assembly-CSharp_CodeGen.c
+  Il2CppMetadataRegistration.c
+  Il2CppCCWs__33.cpp
+  ObjectFiles: 691 of which compiled: 74
+  	Time Compile: 52028 milliseconds Generics__23.cpp
+  	Time Compile: 47693 milliseconds Il2CppCCWs__4.cpp
+  	Time Compile: 46877 milliseconds Il2CppCCWs__69.cpp
+  	Time Compile: 36202 milliseconds Il2CppCCWs__31.cpp
+  	Time Compile: 22849 milliseconds Il2CppPCCWMethods.cpp
+  	Time Compile: 13189 milliseconds Il2CppCCWs__93.cpp
+  	Time Compile: 12962 milliseconds Il2CppCCWs__78.cpp
+  	Time Compile: 12771 milliseconds Generics.cpp
+  	Time Compile: 11513 milliseconds Generics__22.cpp
+  	Time Compile: 11332 milliseconds UnityEngine.CoreModule__1.cpp
+  Total compilation time: 64965 milliseconds.
+  ���C�u���� C:\Users\itouk\EasyMotionTracking\VS_build\build\obj\il2cppOutputProject\ARM64\Release\linkresult_1F8AD3D7026FBB945643EC6A79710D34\GameAssembly.lib �ƃI�u�W�F�N�g C:\Users\itouk\EasyMotionTracking\VS_build\build\obj\il2cppOutputProject\ARM64\Release\linkresult_1F8AD3D7026FBB945643EC6A79710D34\GameAssembly.exp ���쐬��
+  Total link time: 43807 milliseconds.
+  Cleaned up 73 object files.
