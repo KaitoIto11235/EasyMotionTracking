@@ -26,6 +26,16 @@
 	<assembly fullname="Microsoft.MixedReality.Toolkit.Services.InputSimulation">
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.KeyBinding" preserve="nothing" serialized="true"/>
 	</assembly>
+	<assembly fullname="Microsoft.MixedReality.Toolkit.SDK">
+		<type fullname="Microsoft.MixedReality.Toolkit.UI.SliderAxis" preserve="nothing" serialized="true"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.UI.SliderEvent" preserve="nothing" serialized="true"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.ObjectCollectionNode" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule">
+		<type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true"/>
+	</assembly>
 	<assembly fullname="UnityEngine.TextCoreModule">
 		<type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.TextCore.GlyphMetrics" preserve="nothing" serialized="true"/>
