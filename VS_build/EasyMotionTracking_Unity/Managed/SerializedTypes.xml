@@ -35,12 +35,12 @@
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.ThemeProperty" preserve="nothing" serialized="true"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.Easing" preserve="nothing" serialized="true"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.ButtonIconSet/CharIcon" preserve="nothing" serialized="true"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.ObjectCollectionNode" preserve="nothing" serialized="true"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.InteractableProfileItem" preserve="nothing" serialized="true"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.InteractableEvent" preserve="nothing" serialized="true"/>
-		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.ObjectCollectionNode" preserve="nothing" serialized="true"/>
-		<type fullname="Microsoft.MixedReality.Toolkit.UI.ManipulationEvent" preserve="nothing" serialized="true"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.SliderAxis" preserve="nothing" serialized="true"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.SliderEvent" preserve="nothing" serialized="true"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.UI.ManipulationEvent" preserve="nothing" serialized="true"/>
 	</assembly>
 	<assembly fullname="UnityEngine.TextCoreModule">
 		<type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true"/>

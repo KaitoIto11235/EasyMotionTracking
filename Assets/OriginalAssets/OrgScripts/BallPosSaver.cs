@@ -10,14 +10,11 @@ public class BallPosSaver : MonoBehaviour
     StreamWriter sw_x; //x座標記録用
     StreamWriter sw_y; //y座標記録用
     StreamWriter sw_z; //z座標記録用
-    public GameObject CentralBall; //位置を記録したいオブジェクト用変数
+    public GameObject CentralBall;//位置を記録したいオブジェクト用変数
     DateTime t2; //時刻用の変数
 
     void Start()
     {
-        //オブジェクト名でオブジェクトを取得(処理が重いらしいからtagとかで探すようにしたほうがいいかもしれない)
-        //pingpongBall = GameObject.Find("PingPongBall");
-
         //時間を取得
         t2 = DateTime.Now;
 
@@ -33,14 +30,14 @@ public class BallPosSaver : MonoBehaviour
 
         if (!File.Exists(file1))
         {
-            Debug.Log("ファイルを作成します");
+            Debug.Log("ファイル1を作成します");
             sw_x = File.CreateText(file1);
             sw_x.Flush();
             sw_x.Dispose();
         }
         else
         {
-            Debug.Log("The file already exists.ファイルは既に存在しています");
+            Debug.Log("The file already exists.ファイル1は既に存在しています");
         }
         
         if (!File.Exists(file2))
@@ -52,7 +49,7 @@ public class BallPosSaver : MonoBehaviour
         }
         else
         {
-            Debug.Log("The file2 already exists.ファイルは既に存在しています");
+            Debug.Log("The file2 already exists.ファイル2は既に存在しています");
         }
 
         if (!File.Exists(file3))
@@ -64,7 +61,7 @@ public class BallPosSaver : MonoBehaviour
         }
         else
         {
-            Debug.Log("The file3 already exists.ファイル2は既に存在しています");
+            Debug.Log("The file3 already exists.ファイル3は既に存在しています");
         }
 
         //UTF-8で生成...2番目の引数はtrueで末尾に追記，falseでファイルごと上書き．
@@ -103,6 +100,7 @@ public class BallPosSaver : MonoBehaviour
         sw_x.WriteLine(Convert.ToString(x));
         sw_y.WriteLine(Convert.ToString(y));
         sw_z.WriteLine(Convert.ToString(z));
+
 
         //txtのとき
         //sw_x.Write(Convert.ToString(x) + ",");
