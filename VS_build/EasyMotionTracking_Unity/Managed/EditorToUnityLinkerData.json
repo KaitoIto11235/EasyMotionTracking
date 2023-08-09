@@ -361,6 +361,24 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "MeshCollider",
+            "fullManagedTypeName": "UnityEngine.MeshCollider",
+            "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/Scenes/SampleScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "CapsuleCollider",
+            "fullManagedTypeName": "UnityEngine.CapsuleCollider",
+            "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/Scenes/SampleScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "BoxCollider",
             "fullManagedTypeName": "UnityEngine.BoxCollider",
             "moduleName": "Physics",
@@ -373,6 +391,15 @@
             "nativeClass": "SphereCollider",
             "fullManagedTypeName": "UnityEngine.SphereCollider",
             "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/Scenes/SampleScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "TextMesh",
+            "fullManagedTypeName": "UnityEngine.TextMesh",
+            "moduleName": "TextRendering",
             "usedInScenes": [
                 "Assets/Scenes/SampleScene.unity"
             ]
@@ -576,6 +603,20 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "F_AvatarDistance",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "F_AvatarSpeed",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "HandPosSaver",
             "moduleName": "",
             "usedInScenes": []
@@ -590,6 +631,13 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "StartAnimaiton",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "T_AvatarDistance",
             "moduleName": "",
             "usedInScenes": []
@@ -598,6 +646,13 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "T_AvatarSpeed",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "VFOV_Dir",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -765,6 +820,13 @@
         {
             "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.UI.ButtonBorder",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.UI.ButtonConfigHelper",
             "moduleName": "",
             "usedInScenes": []
@@ -773,6 +835,20 @@
             "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.UI.ButtonIconSet",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.UI.ButtonSize",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.UI.ButtonSizeOffset",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -822,6 +898,13 @@
             "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.UI.PointerBehaviorControls",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.UI.PressableButton",
             "moduleName": "",
             "usedInScenes": []
         },

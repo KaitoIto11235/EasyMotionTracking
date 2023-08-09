@@ -33,8 +33,11 @@
 		<type fullname="UnityEngine.AudioBehaviour" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioListener" preserve="nothing"/>
 		<type fullname="UnityEngine.Collider" preserve="nothing"/>
+		<type fullname="UnityEngine.MeshCollider" preserve="nothing"/>
+		<type fullname="UnityEngine.CapsuleCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.BoxCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.SphereCollider" preserve="nothing"/>
+		<type fullname="UnityEngine.TextMesh" preserve="nothing"/>
 		<type fullname="UnityEngine.RectTransform" preserve="nothing"/>
 		<type fullname="UnityEngine.GameObject" preserve="nothing"/>
 		<type fullname="UnityEngine.AnimationClip" preserve="nothing"/>
@@ -56,10 +59,14 @@
 	</assembly>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="BallPosSaver" preserve="nothing"/>
+		<type fullname="F_AvatarDistance" preserve="nothing"/>
+		<type fullname="F_AvatarSpeed" preserve="nothing"/>
 		<type fullname="HandPosSaver" preserve="nothing"/>
 		<type fullname="N_AvatarSpeed" preserve="nothing"/>
+		<type fullname="StartAnimaiton" preserve="nothing"/>
 		<type fullname="T_AvatarDistance" preserve="nothing"/>
 		<type fullname="T_AvatarSpeed" preserve="nothing"/>
+		<type fullname="VFOV_Dir" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Microsoft.MixedReality.OpenXR">
 		<type fullname="Microsoft.MixedReality.OpenXR.HPMixedRealityControllerProfile" preserve="nothing"/>
@@ -91,8 +98,11 @@
 		<type fullname="Microsoft.MixedReality.Toolkit.PhysicalPressEventRouter" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Teleport.ParabolicTeleportPointer" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Teleport.TeleportCursor" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.UI.ButtonBorder" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.ButtonConfigHelper" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.ButtonIconSet" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.UI.ButtonSize" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.UI.ButtonSizeOffset" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.ConstraintManager" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.FeaturesPanelVisuals" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.InputRecordingControls" preserve="nothing"/>
@@ -100,6 +110,7 @@
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.ObjectManipulator" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.PinchSlider" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.PointerBehaviorControls" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.UI.PressableButton" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.PressableButtonHoloLens2" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.RotationAxisConstraint" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.SliderSounds" preserve="nothing"/>

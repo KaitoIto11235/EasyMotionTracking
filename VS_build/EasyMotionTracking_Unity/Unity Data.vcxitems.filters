@@ -2,55 +2,55 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Data">
-      <UniqueIdentifier>{dedfb345-5cc5-43ab-98d1-d3505ec66dc5}</UniqueIdentifier>
+      <UniqueIdentifier>{0f6a4af0-3c8c-481f-a4f1-0a1b36264b00}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono">
-      <UniqueIdentifier>{9513bc9d-f489-44a4-af63-9edffc0dbad8}</UniqueIdentifier>
+      <UniqueIdentifier>{8445f26e-c162-4170-b4e0-29cd999a0b82}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\2.0">
-      <UniqueIdentifier>{4534d6b3-8770-4c70-bd9c-9b7821bd4def}</UniqueIdentifier>
+      <UniqueIdentifier>{7689105b-14fd-43df-8151-1f17c7fbbe95}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\2.0\Browsers">
-      <UniqueIdentifier>{384b38d7-d0a8-4884-8b84-7cdf15a97318}</UniqueIdentifier>
+      <UniqueIdentifier>{5b174678-4202-43b4-9d4e-4b4a759a379a}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\4.0">
-      <UniqueIdentifier>{b500455b-54d0-4217-bd52-bd86aac2bb4c}</UniqueIdentifier>
+      <UniqueIdentifier>{093ebba1-657c-4346-9b9d-fce7da57973d}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\4.0\Browsers">
-      <UniqueIdentifier>{b535b75a-d2d1-4b19-8de7-dd8786b954c3}</UniqueIdentifier>
+      <UniqueIdentifier>{b7c8c594-7709-43ef-857b-bc77cccb0077}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\4.5">
-      <UniqueIdentifier>{6f0a2c5a-aafe-4dc5-8f95-82f0906ef74b}</UniqueIdentifier>
+      <UniqueIdentifier>{208b8736-1334-41e9-ad5a-66276c79b434}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\4.5\Browsers">
-      <UniqueIdentifier>{5dc87349-e573-4296-a5ff-3772ee715bd1}</UniqueIdentifier>
+      <UniqueIdentifier>{f76ab1ff-e6c4-4cae-81b9-086c5e341ff5}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc\mono\mconfig">
-      <UniqueIdentifier>{cddc68d5-1bcc-4019-beb7-a42babba4d59}</UniqueIdentifier>
+      <UniqueIdentifier>{2a3563a2-e937-4437-9be0-43ab0162e6a0}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\Metadata">
-      <UniqueIdentifier>{a0c9b575-766b-48a4-8b2c-7abc8884dc49}</UniqueIdentifier>
+      <UniqueIdentifier>{9ceb75fe-ef71-4810-8bf0-76441026310f}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\Resources">
-      <UniqueIdentifier>{87256309-ac4e-4bb0-9879-d70cc5973baa}</UniqueIdentifier>
+      <UniqueIdentifier>{06dbc26f-61db-4528-9b6e-8ae5112d8a23}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\Resources">
-      <UniqueIdentifier>{b97767ab-8816-4245-acfd-9c49e5e84c4f}</UniqueIdentifier>
+      <UniqueIdentifier>{bcab5d50-3773-49cd-a51b-32833add38a9}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\UnitySubsystems\MicrosoftOpenXRPlugin">
-      <UniqueIdentifier>{75cda13e-442a-4c0c-b8e6-0bbdb9af02be}</UniqueIdentifier>
+      <UniqueIdentifier>{8f5ec1dc-4c1d-4ef0-bb18-8f2836f746e6}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\UnitySubsystems\UnityOpenXR">
-      <UniqueIdentifier>{28926a7f-7522-4d29-9ef7-7beadfb200ed}</UniqueIdentifier>
+      <UniqueIdentifier>{7e3bc34a-99e3-4a98-80ca-cc039f65f38c}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\etc">
-      <UniqueIdentifier>{fd83c32f-613b-4d65-838e-15394a6c734b}</UniqueIdentifier>
+      <UniqueIdentifier>{2f5106be-870c-499f-8b95-eed257f1f3e7}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data">
-      <UniqueIdentifier>{b2738462-9265-42e1-bc6c-4a4cff02b3ed}</UniqueIdentifier>
+      <UniqueIdentifier>{b63b5435-a6fc-4efd-9fea-423917c518fc}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\UnitySubsystems">
-      <UniqueIdentifier>{1cb06832-2963-4d6c-aabd-9caef4de3743}</UniqueIdentifier>
+      <UniqueIdentifier>{a9591c4e-81be-4148-9682-a6eca748896d}</UniqueIdentifier>
     </Filter>
     <Resource Include="$(MSBuildThisFileDirectory)Resource.res" />
     <None Include="$(MSBuildThisFileDirectory)StoreManifest.xml" />

@@ -32,8 +32,8 @@
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.ThemeDefinition" preserve="nothing" serialized="true"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.ThemeStateProperty" preserve="nothing" serialized="true"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.ThemePropertyValue" preserve="nothing" serialized="true"/>
-		<type fullname="Microsoft.MixedReality.Toolkit.UI.ThemeProperty" preserve="nothing" serialized="true"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.Easing" preserve="nothing" serialized="true"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.UI.ThemeProperty" preserve="nothing" serialized="true"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.ButtonIconSet/CharIcon" preserve="nothing" serialized="true"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.ObjectCollectionNode" preserve="nothing" serialized="true"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.InteractableProfileItem" preserve="nothing" serialized="true"/>
