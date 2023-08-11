@@ -9,95 +9,162 @@ using Microsoft.MixedReality.Toolkit.Utilities;
 public class FaceHandPosSaver : MonoBehaviour
 {
     StreamWriter sw; //座標記録用
+    DateTime dt; //日付用の変数
+    float time; //ファイルが開かれてからの時間
+    [SerializeField] float animationTime;
+    
     [SerializeField] Transform avaHand; //位置を記録したいオブジェクトのTransform
-    Transform _face; // 鼻根のTransform。CameraCache.Main.Transformを参照する
-    DateTime t2; //時刻用の変数
+    Transform face; // 鼻根のTransform。CameraCache.Main.Transformを参照する
 
-    void Start()
+    //オブジェクトの位置
+    Vector3 avaHandPos, facePos;
+
+    Vector3 faceNormal; // ユーザーの鼻根の正規化法線ベクトル
+    Vector3 handDir;// ユーザーの鼻根からアバターの手首へのベクトル
+
+    float theta; // 法線ベクトルと手首へのベクトルによる角度
+    public bool visible; // Targetを追えているときTure
+
+    bool fileOpenFlag = false, startButton = false;
+
+    public void ClickStartButton()
     {
-        //時間を取得
-        t2 = DateTime.Now;
+        startButton = true;
+        time = 0f;
+        OpenData();
+    }
 
-        //csvのとき
-        string file = Application.persistentDataPath + "/FaceHandPos.csv";
-
-        //txtのとき
-        //string file1 = Application.persistentDataPath + "/BallPos_x.txt";
-        //string file2 = Application.persistentDataPath + "/BallPos_y.txt";
-        //string file3 = Application.persistentDataPath + "/BallPos_z.txt";
-
-        if (!File.Exists(file))
+    /// <summary>
+    /// Start!ボタンが押されると呼び出され、ファイルを作成する
+    /// </summary>
+    public void OpenData()
+    {
+        if(!fileOpenFlag)
         {
-            Debug.Log("ファイルを作成します");
-            sw = File.CreateText(file);
+            dt = DateTime.Now;// これがファイル名に追加される
+            
+
+            string file = Application.persistentDataPath + "/FaceHand_log" + Convert.ToString(dt.Hour) +
+                " " + Convert.ToString(dt.Minute) + " " + Convert.ToString(dt.Second) + ".csv";
+
+            if (!File.Exists(file))
+            {
+                sw = File.CreateText(file);
+                sw.Flush();
+                sw.Dispose();
+            }
+
+            //UTF-8で生成...2番目の引数はtrueで末尾に追記，falseでファイルごと上書き．
+            sw = new StreamWriter(new FileStream(file, FileMode.Open), Encoding.UTF8);
+            
+            //時刻書き込み
+            sw.WriteLine(Convert.ToString(dt));
+
+            string[] s1 =
+            {
+            "time", "IsVisible", "θ",
+
+            "face_x", "face_y", "face_z",
+
+            "hand_x", "hand_y", "hand_z"
+            };
+            string s2 = string.Join(",", s1);
+            sw.WriteLine(s2);
             sw.Flush();
-            sw.Dispose();
+
+            fileOpenFlag = true;
+            Debug.Log("Create_csv");
+            Debug.Log(file);
         }
         else
         {
-            Debug.Log("The file already exists.ファイルは既に存在しています");
+            Debug.Log("File opened");
         }
 
         
-
-        //UTF-8で生成...2番目の引数はtrueで末尾に追記，falseでファイルごと上書き．
-        sw = new StreamWriter(file, true, Encoding.UTF8);
-
-        //改行
-        sw.WriteLine();
-
-        //時刻書き込み
-        sw.WriteLine(Convert.ToString(t2));
-
-        //Debug.Log(t2);
     }
 
-    void Update()
+    public void CloseData()
     {
-        _face = CameraCache.Main.transform; // カメラのTransform
+        if (fileOpenFlag)
+        {
+            sw.Dispose();
+            Debug.Log("Close_csv");
+            fileOpenFlag = false;
+        }
+        else
+        {
+            Debug.Log("No file opened (CloseData) ");
+        }
+    }
 
-        // ユーザーの鼻根の正規化法線ベクトル
-        float face_x = _face.forward.x;
-        float face_y = _face.forward.y;
-        float face_z = _face.forward.z;
-
-        //オブジェクトのローカル座標を取得
-        Vector3 avaHandPos = avaHand.position;
-        Vector3 facePos = _face.position;
-
-        // ユーザーの鼻根（びこん）からアバターの手首へのベクトル
-        float hand_x = avaHandPos.x - facePos.x;
-        float hand_y = avaHandPos.y - facePos.y;
-        float hand_z = avaHandPos.z - facePos.z;
-
+    public void SaveData()
+    {
         // 松下さんのスクリプト"A_Holo_SavaCSV_Production.cs"を参考に作成
         string[] s1 =
         {
-            Convert.ToString(face_x), Convert.ToString(face_y), Convert.ToString(face_z),
+            Convert.ToString(time), Convert.ToString(visible), Convert.ToString(theta),
 
-            Convert.ToString(hand_x), Convert.ToString(hand_y), Convert.ToString(hand_z)
+            Convert.ToString(faceNormal.x), Convert.ToString(faceNormal.y), Convert.ToString(faceNormal.z),
+
+            Convert.ToString(handDir.x), Convert.ToString(handDir.y), Convert.ToString(handDir.z)
         };
         string s2 = string.Join(",", s1);
         sw.WriteLine(s2);
         sw.Flush();
+    }
 
-        //txtのとき
-        //sw_x.Write(Convert.ToString(x) + ",");
-        //sw_y.Write(Convert.ToString(y) + ",");
-        //sw_z.Write(Convert.ToString(z) + ",");
+    void Start()
+    { 
+        
+    }
 
-        /*if (CentralBall.transform.position.y <= -0.5f)//ボール落下時の処理
+    void FixedUpdate()
+    {
+        //時間を取得
+        time += Time.deltaTime;
+        if (startButton)
         {
-            //改行
-            sw_x.WriteLine();
-            sw_y.WriteLine();
-            sw_z.WriteLine();
+            // カメラのTransform
+            face = CameraCache.Main.transform;
 
-            //時刻t2にボールが落下したことを示すテキストを書き込む
-            sw_x.WriteLine(Convert.ToString(t2) + "にボールが落下");
-            sw_y.WriteLine(Convert.ToString(t2) + "にボールが落下");
-            sw_z.WriteLine(Convert.ToString(t2) + "にボールが落下");
-        }*/
-        //Debug.Log(pingpongBall.transform.position.y);
+            // ユーザーの鼻根の正規化法線ベクトル
+            faceNormal = face.forward;
+
+            //オブジェクトの座標を取得
+            avaHandPos = avaHand.position;
+            facePos = face.position;
+
+            handDir = avaHandPos - facePos;// ユーザーの鼻根からアバターの手首へのベクトル
+
+            visible = IsVisible(handDir);
+
+            SaveData();
+            
+            if(time > animationTime)
+            {
+                CloseData();
+                startButton = false;
+            }
+        }
+
+        
+    }
+
+    ///<summary>
+    ///ターゲットとのズレの角度を計算し、ターゲットが見えているときTrueを返す
+    ///</summary>
+    public bool IsVisible(Vector3 target)
+    {
+        // HoloLens2の視野角＝φ°とするときのcos(φ/2)
+        float cosHalf_holo = 0.969f;
+
+        // 自身とターゲットへの向きの内積計算:cos(θ)
+        float TargetCos = Vector3.Dot(faceNormal, target.normalized); // ターゲットへの向きベクトルを正規化する必要があることに注意
+        // 自身とターゲットへの向きの角度:θ°
+        theta = Mathf.Acos(TargetCos) * Mathf.Rad2Deg;
+
+        // 視界判定
+        return TargetCos > cosHalf_holo;
     }
 }
