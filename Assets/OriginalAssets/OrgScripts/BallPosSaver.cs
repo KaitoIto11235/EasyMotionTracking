@@ -10,7 +10,7 @@ public class BallPosSaver : MonoBehaviour
     StreamWriter sw_x; //x座標記録用
     StreamWriter sw_y; //y座標記録用
     StreamWriter sw_z; //z座標記録用
-    public GameObject CentralBall;//位置を記録したいオブジェクト用変数
+    [SerializeField] Transform _self; // ユーザーの頭のTransform
     DateTime t2; //時刻用の変数
 
     void Start()
@@ -84,16 +84,11 @@ public class BallPosSaver : MonoBehaviour
 
     void Update()
     {
-        //オブジェクトのtransformを取得
-        Transform ballTransform = CentralBall.transform;
+        // ユーザーの頭の正規化法線ベクトル（視線ではない）
+        float x = _self.forward.x;
+        float y = _self.forward.y;
+        float z = _self.forward.z; 
 
-        //オブジェクトのローカル座標を取得
-        Vector3 ballPos = ballTransform.localPosition;
-        float x = ballPos.x;
-        float y = ballPos.y;
-        float z = ballPos.z;
-
-        //Debug.Log($"{x},{z}");
 
         //ファイルの末尾に値を追加（Convertでfloat型の座標値をString型に変換している）
         //csvのとき

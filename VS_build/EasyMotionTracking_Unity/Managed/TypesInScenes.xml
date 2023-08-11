@@ -58,15 +58,15 @@
 		<type fullname="UnityEngine.AudioClip" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Assembly-CSharp">
-		<type fullname="BallPosSaver" preserve="nothing"/>
 		<type fullname="F_AvatarDistance" preserve="nothing"/>
 		<type fullname="F_AvatarSpeed" preserve="nothing"/>
-		<type fullname="HandPosSaver" preserve="nothing"/>
+		<type fullname="FaceHandPosSaver" preserve="nothing"/>
 		<type fullname="N_AvatarSpeed" preserve="nothing"/>
 		<type fullname="StartAnimaiton" preserve="nothing"/>
 		<type fullname="T_AvatarDistance" preserve="nothing"/>
 		<type fullname="T_AvatarSpeed" preserve="nothing"/>
 		<type fullname="VFOV_Dir" preserve="nothing"/>
+		<type fullname="VFOV_Move" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Microsoft.MixedReality.OpenXR">
 		<type fullname="Microsoft.MixedReality.OpenXR.HPMixedRealityControllerProfile" preserve="nothing"/>

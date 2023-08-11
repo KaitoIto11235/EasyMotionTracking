@@ -26,12 +26,12 @@ extern void F_AvatarDistance__ctor_m612AA45FBBF1ACEFECC1A6CE5475A6EEA861AC16 (vo
 extern void F_AvatarSpeed_T_SpeedChange_m1B77FE5ED71CC8BAB895CD7056449F4604E7B234 (void);
 // 0x00000007 System.Void F_AvatarSpeed::.ctor()
 extern void F_AvatarSpeed__ctor_mB7065C3DDB53603D4E25002AC2C17482AD490506 (void);
-// 0x00000008 System.Void HandPosSaver::Start()
-extern void HandPosSaver_Start_mAF850DB52AC1FACAFDF3E87C75860418C19E4797 (void);
-// 0x00000009 System.Void HandPosSaver::Update()
-extern void HandPosSaver_Update_m9C2CF94C324762998C7055BDD71ACDA6F86CF850 (void);
-// 0x0000000A System.Void HandPosSaver::.ctor()
-extern void HandPosSaver__ctor_m5144AFC417E29F19CE30213EFFBAFA8CBF825FAA (void);
+// 0x00000008 System.Void FaceHandPosSaver::Start()
+extern void FaceHandPosSaver_Start_m63E8E4D703E969D4739C725C43833DC0C2C78FC8 (void);
+// 0x00000009 System.Void FaceHandPosSaver::Update()
+extern void FaceHandPosSaver_Update_mCCD5AB0B6BDC23DE0BD7562DB4BE34C9A2444286 (void);
+// 0x0000000A System.Void FaceHandPosSaver::.ctor()
+extern void FaceHandPosSaver__ctor_mB1F64BA0BD57B48FACF6AC548E849A127B8E673D (void);
 // 0x0000000B System.Void N_AvatarSpeed::SpeedChange(Microsoft.MixedReality.Toolkit.UI.SliderEventData)
 extern void N_AvatarSpeed_SpeedChange_mA0F77913AB252373BA2C3BCAADEB7846A231548E (void);
 // 0x0000000C System.Void N_AvatarSpeed::.ctor()
@@ -68,7 +68,11 @@ extern void VFOV_Dir_Start_mD986D7E678E264BA878C60D781C61FB3167435AF (void);
 extern void VFOV_Dir_Update_mB6E7504E259A52FB037C84858D571C1106D4F075 (void);
 // 0x0000001C System.Void VFOV_Dir::.ctor()
 extern void VFOV_Dir__ctor_m8F7A900E3920A0889325C20A953314D510B982AF (void);
-static Il2CppMethodPointer s_methodPointers[28] = 
+// 0x0000001D System.Void VFOV_Move::Update()
+extern void VFOV_Move_Update_m2E0EF7BE9AA90CD72B2B1F8B435F1A952298668E (void);
+// 0x0000001E System.Void VFOV_Move::.ctor()
+extern void VFOV_Move__ctor_m5119716D09D8991A565E104083E5E15FE503A69F (void);
+static Il2CppMethodPointer s_methodPointers[30] = 
 {
 	BallPosSaver_Start_m003D808CBA73BE26C0A67CE218635C5F2DF9204E,
 	BallPosSaver_Update_m05C5A7EB27C486B1A1D75F56287B0C865260C84B,
@@ -77,9 +81,9 @@ static Il2CppMethodPointer s_methodPointers[28] =
 	F_AvatarDistance__ctor_m612AA45FBBF1ACEFECC1A6CE5475A6EEA861AC16,
 	F_AvatarSpeed_T_SpeedChange_m1B77FE5ED71CC8BAB895CD7056449F4604E7B234,
 	F_AvatarSpeed__ctor_mB7065C3DDB53603D4E25002AC2C17482AD490506,
-	HandPosSaver_Start_mAF850DB52AC1FACAFDF3E87C75860418C19E4797,
-	HandPosSaver_Update_m9C2CF94C324762998C7055BDD71ACDA6F86CF850,
-	HandPosSaver__ctor_m5144AFC417E29F19CE30213EFFBAFA8CBF825FAA,
+	FaceHandPosSaver_Start_m63E8E4D703E969D4739C725C43833DC0C2C78FC8,
+	FaceHandPosSaver_Update_mCCD5AB0B6BDC23DE0BD7562DB4BE34C9A2444286,
+	FaceHandPosSaver__ctor_mB1F64BA0BD57B48FACF6AC548E849A127B8E673D,
 	N_AvatarSpeed_SpeedChange_mA0F77913AB252373BA2C3BCAADEB7846A231548E,
 	N_AvatarSpeed__ctor_m082E6F0F9ACC3D6CE84583840CBB449E2C09CC54,
 	StartAnimaiton_StartAni_m7F3CE7AF968803FDF980F07E9C2BE8DEA33B3150,
@@ -98,8 +102,10 @@ static Il2CppMethodPointer s_methodPointers[28] =
 	VFOV_Dir_Start_mD986D7E678E264BA878C60D781C61FB3167435AF,
 	VFOV_Dir_Update_mB6E7504E259A52FB037C84858D571C1106D4F075,
 	VFOV_Dir__ctor_m8F7A900E3920A0889325C20A953314D510B982AF,
+	VFOV_Move_Update_m2E0EF7BE9AA90CD72B2B1F8B435F1A952298668E,
+	VFOV_Move__ctor_m5119716D09D8991A565E104083E5E15FE503A69F,
 };
-static const int32_t s_InvokerIndices[28] = 
+static const int32_t s_InvokerIndices[30] = 
 {
 	5127,
 	5127,
@@ -129,13 +135,15 @@ static const int32_t s_InvokerIndices[28] =
 	5127,
 	5127,
 	5127,
+	5127,
+	5127,
 };
 extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	28,
+	30,
 	s_methodPointers,
 	0,
 	NULL,

@@ -596,13 +596,6 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "BallPosSaver",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "F_AvatarDistance",
             "moduleName": "",
             "usedInScenes": []
@@ -617,7 +610,7 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "HandPosSaver",
+            "fullManagedTypeName": "FaceHandPosSaver",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -653,6 +646,13 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "VFOV_Dir",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "VFOV_Move",
             "moduleName": "",
             "usedInScenes": []
         },
