@@ -5,9 +5,12 @@ using UnityEngine;
 public class StartAnimaiton : MonoBehaviour
 {
     [SerializeField] Animator n_animator, _animator;
-    [SerializeField] float advTime = 0.3f; // N_AvatarよりadvTimeだけ早く動く
-    float time = 3f; // ボタンを押してからtime秒後にN_Avatarが動き始める
+    float advTime = 0.3f; // N_AvatarよりadvTimeだけ早く動く
+    float time = 2.7f; // ボタンを押してからtime+advTime秒後にN_Avatarが動き始める
 
+    /// <summary>
+    /// Start!ボタンが押されると呼び出される
+    /// </summary>
     public void StartAni()
     {
         StartCoroutine(DelayCoroutine());
@@ -15,13 +18,13 @@ public class StartAnimaiton : MonoBehaviour
 
     private IEnumerator DelayCoroutine()
     {
-        time -= advTime;
+        
         yield return new WaitForSeconds(time);
-        _animator.SetTrigger("StartTri");
+        //_animator.SetTrigger("StartTri"); // T_Avatarが動き出す
 
-
+        
         yield return new WaitForSeconds(advTime);
         Debug.Log("StartAnimation");
-        n_animator.SetTrigger("StartTri");
+        n_animator.SetTrigger("StartTri"); // N_Avatarが動き出す
     }
 }

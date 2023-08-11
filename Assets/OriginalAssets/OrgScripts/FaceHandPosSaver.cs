@@ -11,17 +11,14 @@ public class FaceHandPosSaver : MonoBehaviour
 {
     StreamWriter sw; //座標記録用
     float time; //ファイルが開かれてからの時間
-    [SerializeField] float animationTime; // animationの時間。この秒数だけデータが記録される
+    [SerializeField] float animationTime = 5f; // animationの時間。この秒数だけデータが記録される
     [SerializeField] Transform avaHand; //位置を記録したいオブジェクトのTransform
-
-    
+    [SerializeField] Animator n_animator, _animator;
     public bool visible; // Targetを追えているときTure
-
-    bool fileOpenFlag = false, startButton = false;
+    bool fileOpenFlag = false, speedConstFlag = false;
 
     public void ClickStartButton()
     {
-        startButton = true;
         time = 0f;
         OpenData();
     }
@@ -53,7 +50,7 @@ public class FaceHandPosSaver : MonoBehaviour
 
             string[] s1 =
             {
-            "time", "IsVisible", "θ",
+            "time", "θ", "IsVisible",
 
             "face_x", "face_y", "face_z",
 
@@ -77,15 +74,21 @@ public class FaceHandPosSaver : MonoBehaviour
 
     public void CloseData()
     {
-        if (fileOpenFlag)
+        sw.Dispose();
+        Debug.Log("Close_csv");
+        fileOpenFlag = false;
+
+        // 手首を見失わなかった場合の処理
+        if(!speedConstFlag)
         {
-            sw.Dispose();
-            Debug.Log("Close_csv");
-            fileOpenFlag = false;
-        }
-        else
-        {
-            Debug.Log("No file opened (CloseData) ");
+            float speed = n_animator.GetFloat("S_keisuu");
+            animationTime = (animationTime - 3f) * speed + 3f;
+
+            speed += 0.1f; // 次回の速さを＋0.1する
+            animationTime = (animationTime - 3f) / speed + 3f;
+            n_animator.SetFloat("S_keisuu", speed);
+            _animator.SetFloat("S_keisuu", speed);
+            Debug.Log("Speed Up!");
         }
     }
 
@@ -108,34 +111,33 @@ public class FaceHandPosSaver : MonoBehaviour
 
     void Start()
     {
-
+        animationTime = (animationTime - 3f) / 0.1f + 3f; // speedが0.1倍で始まるため。
     }
 
     void FixedUpdate()
     {
         //時間を取得
         time += Time.deltaTime;
-        if (startButton)
+        if (fileOpenFlag)
         {
-            
             Transform face = CameraCache.Main.transform; // カメラのTransform
-
             Vector3 faceNormal = face.forward; // ユーザーの鼻根の正規化法線ベクトル
-
-            //オブジェクトの座標をVector3型で取得
             Vector3 avaHandPos = avaHand.position;
             Vector3 facePos = face.position;
+            Vector3 avaHandDir = avaHandPos - facePos;
 
-            float theta = ThetaCal(avaHandPos, facePos, faceNormal);
+            float theta = ThetaCal(avaHandDir, faceNormal);
             visible = IsVisible(avaHandPos);
+            if(visible == false)
+            {
+                speedConstFlag = true;
+            }
 
-
-            SaveData(theta, faceNormal, avaHandPos - facePos);
+            SaveData(theta, faceNormal, avaHandDir);
 
             if (time > animationTime)
             {
                 CloseData();
-                startButton = false;
             }
         }
 
@@ -145,21 +147,10 @@ public class FaceHandPosSaver : MonoBehaviour
     ///<summary>
     ///ターゲットとのズレの角度を計算する
     ///</summary>
-    float ThetaCal(Vector3 target, Vector3 basePos, Vector3 faceNormal)
+    float ThetaCal(Vector3 target, Vector3 faceNormal)
     {
-        // HoloLens2の視野角＝φ°とするときのcos(φ/2)
-        //float cosHalf_holo = 0.969f;
-
-        // カメラの位置からのベクトルを計算
-        target -= basePos;
-
-        // 自身とターゲットへの向きの内積計算:cos(θ)
-        float TargetCos = Vector3.Dot(faceNormal, target.normalized); // ターゲットへの向きベクトルを正規化する必要があることに注意
-        // 自身とターゲットへの向きの角度:θ°
-        return Mathf.Acos(TargetCos) * Mathf.Rad2Deg;
-
-        // 視界判定
-        //return TargetCos > cosHalf_holo;
+        float TargetCos = Vector3.Dot(faceNormal, target.normalized); // 自身とターゲットへの向きの内積計算:cos(θ)
+        return Mathf.Acos(TargetCos) * Mathf.Rad2Deg; // 自身とターゲットへの向きの角度:θ°
     }
 
     bool IsVisible(Vector3 target)
