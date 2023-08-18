@@ -143,6 +143,8 @@ struct EventPayload_t43BB09A63B3B7D1DDA3D998D4167167A8443BEFA;
 struct EventSource_t02B6E43167F06B74646A32A3BBC58988BFC3EA6A;
 // Microsoft.MixedReality.Toolkit.Utilities.EyeGazeSmoother
 struct EyeGazeSmoother_t6232E8C40ACEC7892C2EB6DF5C69C395C71A7E2A;
+// FaceHandPosSaver
+struct FaceHandPosSaver_t9488B93AC63E502EC346D4C5FAEFE4F8D2383341;
 // System.Reflection.FieldInfo
 struct FieldInfo_t;
 // Microsoft.MixedReality.Toolkit.UI.FollowMeToggle
@@ -793,6 +795,46 @@ public:
 	{
 		___U3CU3E4__this_3 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E4__this_3), (void*)value);
+	}
+};
+
+
+// FaceHandPosSaver/<DelayCoroutine>d__14
+struct U3CDelayCoroutineU3Ed__14_tB67D3CC23EA78FD5E3EB2DCBEA557A22D257270D  : public RuntimeObject
+{
+public:
+	// System.Int32 FaceHandPosSaver/<DelayCoroutine>d__14::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Object FaceHandPosSaver/<DelayCoroutine>d__14::<>2__current
+	RuntimeObject * ___U3CU3E2__current_1;
+	// FaceHandPosSaver FaceHandPosSaver/<DelayCoroutine>d__14::<>4__this
+	FaceHandPosSaver_t9488B93AC63E502EC346D4C5FAEFE4F8D2383341 * ___U3CU3E4__this_2;
+
+public:
+	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CDelayCoroutineU3Ed__14_tB67D3CC23EA78FD5E3EB2DCBEA557A22D257270D, ___U3CU3E1__state_0)); }
+	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
+	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
+	inline void set_U3CU3E1__state_0(int32_t value)
+	{
+		___U3CU3E1__state_0 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CDelayCoroutineU3Ed__14_tB67D3CC23EA78FD5E3EB2DCBEA557A22D257270D, ___U3CU3E2__current_1)); }
+	inline RuntimeObject * get_U3CU3E2__current_1() const { return ___U3CU3E2__current_1; }
+	inline RuntimeObject ** get_address_of_U3CU3E2__current_1() { return &___U3CU3E2__current_1; }
+	inline void set_U3CU3E2__current_1(RuntimeObject * value)
+	{
+		___U3CU3E2__current_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E2__current_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CDelayCoroutineU3Ed__14_tB67D3CC23EA78FD5E3EB2DCBEA557A22D257270D, ___U3CU3E4__this_2)); }
+	inline FaceHandPosSaver_t9488B93AC63E502EC346D4C5FAEFE4F8D2383341 * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
+	inline FaceHandPosSaver_t9488B93AC63E502EC346D4C5FAEFE4F8D2383341 ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
+	inline void set_U3CU3E4__this_2(FaceHandPosSaver_t9488B93AC63E502EC346D4C5FAEFE4F8D2383341 * value)
+	{
+		___U3CU3E4__this_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E4__this_2), (void*)value);
 	}
 };
 
@@ -8469,6 +8511,12 @@ public:
 
 
 // UnityEngine.UI.Dropdown/<DelayedDestroyDropdownList>d__75
+
+
+// FaceHandPosSaver/<DelayCoroutine>d__14
+
+
+// FaceHandPosSaver/<DelayCoroutine>d__14
 
 
 // Microsoft.MixedReality.Toolkit.UI.FollowMeToggle/<AutoFollowDistanceCheck>d__37
@@ -16160,6 +16208,101 @@ IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_OverideEventProvider
 	}
 
 	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) OverideEventProvider_tFE8809F2BF8AC28EC116E778F8154AFA8F2DE940_ComCallableWrapper(obj));
+}
+
+// COM Callable Wrapper for FaceHandPosSaver/<DelayCoroutine>d__14
+struct U3CDelayCoroutineU3Ed__14_tB67D3CC23EA78FD5E3EB2DCBEA557A22D257270D_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<U3CDelayCoroutineU3Ed__14_tB67D3CC23EA78FD5E3EB2DCBEA557A22D257270D_ComCallableWrapper>, IClosable_t30CA7D2BE598B3BD6AA57CE9DF977DB51540B953
+{
+	inline U3CDelayCoroutineU3Ed__14_tB67D3CC23EA78FD5E3EB2DCBEA557A22D257270D_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<U3CDelayCoroutineU3Ed__14_tB67D3CC23EA78FD5E3EB2DCBEA557A22D257270D_ComCallableWrapper>(obj) {}
+
+	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
+	{
+		if (::memcmp(&iid, &Il2CppIUnknown::IID, sizeof(Il2CppGuid)) == 0
+		 || ::memcmp(&iid, &Il2CppIInspectable::IID, sizeof(Il2CppGuid)) == 0
+		 || ::memcmp(&iid, &Il2CppIAgileObject::IID, sizeof(Il2CppGuid)) == 0)
+		{
+			*object = GetIdentity();
+			AddRefImpl();
+			return IL2CPP_S_OK;
+		}
+
+		if (::memcmp(&iid, &Il2CppIManagedObjectHolder::IID, sizeof(Il2CppGuid)) == 0)
+		{
+			*object = static_cast<Il2CppIManagedObjectHolder*>(this);
+			AddRefImpl();
+			return IL2CPP_S_OK;
+		}
+
+		if (::memcmp(&iid, &IClosable_t30CA7D2BE598B3BD6AA57CE9DF977DB51540B953::IID, sizeof(Il2CppGuid)) == 0)
+		{
+			*object = static_cast<IClosable_t30CA7D2BE598B3BD6AA57CE9DF977DB51540B953*>(this);
+			AddRefImpl();
+			return IL2CPP_S_OK;
+		}
+
+		if (::memcmp(&iid, &Il2CppIMarshal::IID, sizeof(Il2CppGuid)) == 0)
+		{
+			*object = static_cast<Il2CppIMarshal*>(this);
+			AddRefImpl();
+			return IL2CPP_S_OK;
+		}
+
+		if (::memcmp(&iid, &Il2CppIWeakReferenceSource::IID, sizeof(Il2CppGuid)) == 0)
+		{
+			*object = static_cast<Il2CppIWeakReferenceSource*>(this);
+			AddRefImpl();
+			return IL2CPP_S_OK;
+		}
+
+		*object = NULL;
+		return IL2CPP_E_NOINTERFACE;
+	}
+
+	virtual uint32_t STDCALL AddRef() IL2CPP_OVERRIDE
+	{
+		return AddRefImpl();
+	}
+
+	virtual uint32_t STDCALL Release() IL2CPP_OVERRIDE
+	{
+		return ReleaseImpl();
+	}
+
+	virtual il2cpp_hresult_t STDCALL GetIids(uint32_t* iidCount, Il2CppGuid** iids) IL2CPP_OVERRIDE
+	{
+		Il2CppGuid* interfaceIds = il2cpp_codegen_marshal_allocate_array<Il2CppGuid>(1);
+		interfaceIds[0] = IClosable_t30CA7D2BE598B3BD6AA57CE9DF977DB51540B953::IID;
+
+		*iidCount = 1;
+		*iids = interfaceIds;
+		return IL2CPP_S_OK;
+	}
+
+	virtual il2cpp_hresult_t STDCALL GetRuntimeClassName(Il2CppHString* className) IL2CPP_OVERRIDE
+	{
+		return GetRuntimeClassNameImpl(className);
+	}
+
+	virtual il2cpp_hresult_t STDCALL GetTrustLevel(int32_t* trustLevel) IL2CPP_OVERRIDE
+	{
+		return ComObjectBase::GetTrustLevel(trustLevel);
+	}
+
+	virtual il2cpp_hresult_t STDCALL IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871() IL2CPP_OVERRIDE
+	{
+		return IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871_ComCallableWrapperProjectedMethod(GetManagedObjectInline());
+	}
+};
+
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_U3CDelayCoroutineU3Ed__14_tB67D3CC23EA78FD5E3EB2DCBEA557A22D257270D(RuntimeObject* obj)
+{
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(U3CDelayCoroutineU3Ed__14_tB67D3CC23EA78FD5E3EB2DCBEA557A22D257270D_ComCallableWrapper));
+	if (memory == NULL)
+	{
+		il2cpp_codegen_raise_out_of_memory_exception();
+	}
+
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) U3CDelayCoroutineU3Ed__14_tB67D3CC23EA78FD5E3EB2DCBEA557A22D257270D_ComCallableWrapper(obj));
 }
 
 // COM Callable Wrapper for Microsoft.MixedReality.Toolkit.UI.FollowMeToggle/<AutoFollowDistanceCheck>d__37

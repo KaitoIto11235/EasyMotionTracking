@@ -627,8 +627,6 @@ struct TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B;
 struct TouchScreenKeyboard_t7964B2E9E52C4E095B14F01C32774B98CA11711E;
 // UnityEngine.TrackedReference
 struct TrackedReference_t17AA313389C655DCF279F96A2D85332B29596514;
-// UnityEngine.TrailRenderer
-struct TrailRenderer_t219A9B1F6C4B984AE4BEEC40F90665D122056A01;
 // UnityEngine.Transform
 struct Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1;
 // System.Type
@@ -45586,15 +45584,6 @@ IL_000f:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void UnityEngine.TrailRenderer::set_time(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrailRenderer_set_time_mD3CE2A98D44A4FDE806CDA46EDD6EFDE968431CE (TrailRenderer_t219A9B1F6C4B984AE4BEEC40F90665D122056A01 * __this, float ___value0, const RuntimeMethod* method)
-{
-	typedef void (*TrailRenderer_set_time_mD3CE2A98D44A4FDE806CDA46EDD6EFDE968431CE_ftn) (TrailRenderer_t219A9B1F6C4B984AE4BEEC40F90665D122056A01 *, float);
-	static TrailRenderer_set_time_mD3CE2A98D44A4FDE806CDA46EDD6EFDE968431CE_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TrailRenderer_set_time_mD3CE2A98D44A4FDE806CDA46EDD6EFDE968431CE_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TrailRenderer::set_time(System.Single)");
-	_il2cpp_icall_func(__this, ___value0);
-}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

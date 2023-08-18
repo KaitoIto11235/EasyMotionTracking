@@ -61,10 +61,7 @@
 		<type fullname="F_AvatarDistance" preserve="nothing"/>
 		<type fullname="F_AvatarSpeed" preserve="nothing"/>
 		<type fullname="FaceHandPosSaver" preserve="nothing"/>
-		<type fullname="N_AvatarSpeed" preserve="nothing"/>
 		<type fullname="StartAnimaiton" preserve="nothing"/>
-		<type fullname="T_AvatarDistance" preserve="nothing"/>
-		<type fullname="T_AvatarSpeed" preserve="nothing"/>
 		<type fullname="VFOV_Dir" preserve="nothing"/>
 		<type fullname="VFOV_Move" preserve="nothing"/>
 	</assembly>

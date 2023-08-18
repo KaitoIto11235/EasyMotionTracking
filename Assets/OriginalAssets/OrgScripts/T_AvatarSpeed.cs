@@ -16,6 +16,6 @@ public class T_AvatarSpeed : MonoBehaviour
         // アニメーション速度による軌跡の持続時間の変更
         timeOnSpeed = script.timeOnDis / trail_animator.GetFloat("S_keisuu");
 
-        script.handR.time = timeOnSpeed;
+        //script.handR.time = timeOnSpeed;
     }
 }

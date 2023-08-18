@@ -20,7 +20,7 @@ public class StartAnimaiton : MonoBehaviour
     {
         
         yield return new WaitForSeconds(time);
-        //_animator.SetTrigger("StartTri"); // T_Avatar‚ª“®‚«o‚·
+        _animator.SetTrigger("StartTri"); // T_Avatar‚ª“®‚«o‚·
 
         
         yield return new WaitForSeconds(advTime);
