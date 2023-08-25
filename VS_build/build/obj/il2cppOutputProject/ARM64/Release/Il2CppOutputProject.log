@@ -6,78 +6,20 @@
   
   	Output directory: C:\Users\itouk\EasyMotionTracking\VS_build\build\bin\ARM64\Release
   	Cache directory: C:\Users\itouk\EasyMotionTracking\VS_build\build\obj\il2cppOutputProject\ARM64\Release
-  Il2CppInteropDataTable.cpp
+  Il2CppGenericMethodDefinitions.c
+  Assembly-CSharp_Attr.cpp
+  Il2CppGenericMethodTable.c
+  Assembly-CSharp.cpp
   Il2CppGenericMethodPointerTable.cpp
   Il2CppMetadataUsage.c
-  Il2CppCCalculateTypeValues.cpp
-  Il2CppCCalculateFieldValues1.cpp
-  Microsoft.MixedReality.OpenXR.cpp
-  Il2CppPCCWMethods.cpp
-  Generics.cpp
-  GenericMethods__12.cpp
-  mscorlib__8.cpp
-  Generics__4.cpp
-  Il2CppCCWs__79.cpp
-  Il2CppGenericMethodTable.c
-  Il2CppCCWs__94.cpp
-  Il2CppGenericMethodDefinitions.c
-  Il2CppCCWs__31.cpp
-  Microsoft.MixedReality.Toolkit.Gltf.cpp
-  Il2CppCCWs__4.cpp
-  GenericMethods__13.cpp
-  System.Runtime.WindowsRuntime.cpp
-  Il2CppCCWs__38.cpp
-  Il2CppCCWs__106.cpp
-  WindowsRuntimeMetadata.cpp
-  Il2CppCCWs__69.cpp
-  Generics__23.cpp
-  Il2CppCCWs__105.cpp
-  Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.cpp
-  Microsoft.MixedReality.Toolkit.SDK__8.cpp
-  Il2CppCCWs__23.cpp
-  Il2CppCCWs__21.cpp
-  Il2CppCCWs__104.cpp
-  Il2CppCCWs__22.cpp
-  Il2CppCCWs__78.cpp
-  Il2CppCCWs.cpp
-  Il2CppCCWs__95.cpp
-  Il2CppCCWs__20.cpp
-  Il2CppCCWs__28.cpp
-  Il2CppCCWs__100.cpp
-  Il2CppCCWs__24.cpp
-  Il2CppCCWs__101.cpp
-  Il2CppCCWs__73.cpp
-  Il2CppCCWs__62.cpp
-  Il2CppCCWs__26.cpp
-  Il2CppCCWs__25.cpp
-  Il2CppCCWs__99.cpp
-  Il2CppCCWs__97.cpp
-  Il2CppCCWs__27.cpp
-  Il2CppCCWs__34.cpp
-  Il2CppCCWs__29.cpp
-  Il2CppCCWs__3.cpp
-  Il2CppCCWs__30.cpp
-  Il2CppCCWs__74.cpp
-  WindowsRuntimeMetadata_CodeGen.c
-  Il2CppCCWs__98.cpp
-  Assembly-CSharp_CodeGen.c
-  Il2CppCCWs__103.cpp
-  Assembly-CSharp.cpp
-  Il2CppCCWs__33.cpp
-  Il2CppCCWs__96.cpp
-  Il2CppCCWs__102.cpp
-  ObjectFiles: 703 of which compiled: 60
-  	Time Compile: 57599 milliseconds Generics__23.cpp
-  	Time Compile: 52931 milliseconds Il2CppCCWs__69.cpp
-  	Time Compile: 48766 milliseconds Il2CppCCWs__31.cpp
-  	Time Compile: 47626 milliseconds Il2CppCCWs__4.cpp
-  	Time Compile: 24943 milliseconds Il2CppCCWs__79.cpp
-  	Time Compile: 20287 milliseconds Il2CppCCWs__94.cpp
-  	Time Compile: 20216 milliseconds Il2CppPCCWMethods.cpp
-  	Time Compile: 15664 milliseconds Generics__4.cpp
-  	Time Compile: 13559 milliseconds Il2CppCCalculateFieldValues1.cpp
-  	Time Compile: 13462 milliseconds Il2CppCCWs__38.cpp
-  Total compilation time: 79115 milliseconds.
-  ���C�u���� C:\Users\itouk\EasyMotionTracking\VS_build\build\obj\il2cppOutputProject\ARM64\Release\linkresult_85A406B43C31A504E63A8644B6ECC00C\GameAssembly.lib �ƃI�u�W�F�N�g C:\Users\itouk\EasyMotionTracking\VS_build\build\obj\il2cppOutputProject\ARM64\Release\linkresult_85A406B43C31A504E63A8644B6ECC00C\GameAssembly.exp ���쐬��
-  Total link time: 32174 milliseconds.
-  Cleaned up 62 object files.
+  ObjectFiles: 703 of which compiled: 6
+  	Time Compile: 2996 milliseconds Il2CppMetadataUsage.c
+  	Time Compile: 2296 milliseconds Il2CppGenericMethodPointerTable.cpp
+  	Time Compile: 2216 milliseconds Assembly-CSharp.cpp
+  	Time Compile: 2014 milliseconds Il2CppGenericMethodTable.c
+  	Time Compile: 1989 milliseconds Il2CppGenericMethodDefinitions.c
+  	Time Compile: 1973 milliseconds Assembly-CSharp_Attr.cpp
+  Total compilation time: 5963 milliseconds.
+  ���C�u���� C:\Users\itouk\EasyMotionTracking\VS_build\build\obj\il2cppOutputProject\ARM64\Release\linkresult_FA819BD86F8836D38D26DC51A3C05746\GameAssembly.lib �ƃI�u�W�F�N�g C:\Users\itouk\EasyMotionTracking\VS_build\build\obj\il2cppOutputProject\ARM64\Release\linkresult_FA819BD86F8836D38D26DC51A3C05746\GameAssembly.exp ���쐬��
+  Total link time: 38145 milliseconds.
+  Cleaned up 8 object files.

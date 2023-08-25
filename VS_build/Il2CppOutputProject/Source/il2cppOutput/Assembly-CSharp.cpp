@@ -4535,8 +4535,8 @@ IL_0068:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FaceHandPosSaver__ctor_mB1F64BA0BD57B48FACF6AC548E849A127B8E673D (FaceHandPosSaver_t9488B93AC63E502EC346D4C5FAEFE4F8D2383341 * __this, const RuntimeMethod* method)
 {
 	{
-		// [SerializeField] float animationTime = 2f;          // animation�̎��ԁB���̕b�������f�[�^���L�^�����
-		__this->set_animationTime_6((2.0f));
+		// float animationTime = 4f;          // animation�̎��ԁB���̕b�������f�[�^���L�^�����
+		__this->set_animationTime_6((4.0f));
 		// bool visibleWrist = true;
 		__this->set_visibleWrist_11((bool)1);
 		// bool fileOpenFlag = false, speedUpFlag = true;

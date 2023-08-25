@@ -12,7 +12,7 @@ public class FaceHandPosSaver : MonoBehaviour
 {
     StreamWriter sw;                                    //座標記録用
     float time;                                         //ファイルが開かれてからの時間
-    [SerializeField] float animationTime = 2f;          // animationの時間。この秒数だけデータが記録される
+    float animationTime = 4f;          // animationの時間。この秒数だけデータが記録される
     [SerializeField] Transform avaWrist;                 //位置を記録したいオブジェクトのTransform
     [SerializeField] Animator n_animator, _animator;
     bool visible;                                       // Targetを追えているときTure
