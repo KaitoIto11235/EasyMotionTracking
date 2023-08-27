@@ -206,7 +206,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[10] =
 static const int32_t s_InvokerIndices[55] = 
 {
 	311,
-	875,
+	876,
 	4926,
 	4069,
 	2904,
@@ -243,7 +243,7 @@ static const int32_t s_InvokerIndices[55] =
 	5128,
 	4181,
 	311,
-	875,
+	876,
 	5035,
 	5035,
 	4999,
@@ -258,7 +258,7 @@ static const int32_t s_InvokerIndices[55] =
 	5128,
 	4069,
 	4183,
-	818,
+	819,
 	7604,
 };
 extern const CustomAttributesCacheGenerator g_Microsoft_MixedReality_Toolkit_Providers_WindowsVoiceInput_AttributeGenerators[];

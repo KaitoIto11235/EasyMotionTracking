@@ -248,7 +248,7 @@ static const int32_t s_InvokerIndices[70] =
 	5121,
 	4926,
 	5128,
-	875,
+	876,
 	5128,
 	5128,
 	5128,
@@ -295,7 +295,7 @@ static const int32_t s_InvokerIndices[70] =
 	4181,
 	5035,
 	4181,
-	344,
+	345,
 	948,
 };
 extern const CustomAttributesCacheGenerator g_Microsoft_MixedReality_Toolkit_Providers_WindowsSceneUnderstanding_AttributeGenerators[];

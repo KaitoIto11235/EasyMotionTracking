@@ -314,7 +314,7 @@ static const int32_t s_InvokerIndices[72] =
 	4145,
 	2335,
 	2347,
-	700,
+	701,
 	4181,
 };
 extern const CustomAttributesCacheGenerator g_UnityEngine_AudioModule_AttributeGenerators[];

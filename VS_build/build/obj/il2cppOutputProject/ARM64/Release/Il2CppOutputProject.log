@@ -6,20 +6,6 @@
   
   	Output directory: C:\Users\itouk\EasyMotionTracking\VS_build\build\bin\ARM64\Release
   	Cache directory: C:\Users\itouk\EasyMotionTracking\VS_build\build\obj\il2cppOutputProject\ARM64\Release
-  Il2CppGenericMethodDefinitions.c
-  Assembly-CSharp_Attr.cpp
-  Il2CppGenericMethodTable.c
-  Assembly-CSharp.cpp
-  Il2CppGenericMethodPointerTable.cpp
-  Il2CppMetadataUsage.c
-  ObjectFiles: 703 of which compiled: 6
-  	Time Compile: 2996 milliseconds Il2CppMetadataUsage.c
-  	Time Compile: 2296 milliseconds Il2CppGenericMethodPointerTable.cpp
-  	Time Compile: 2216 milliseconds Assembly-CSharp.cpp
-  	Time Compile: 2014 milliseconds Il2CppGenericMethodTable.c
-  	Time Compile: 1989 milliseconds Il2CppGenericMethodDefinitions.c
-  	Time Compile: 1973 milliseconds Assembly-CSharp_Attr.cpp
-  Total compilation time: 5963 milliseconds.
-  ���C�u���� C:\Users\itouk\EasyMotionTracking\VS_build\build\obj\il2cppOutputProject\ARM64\Release\linkresult_FA819BD86F8836D38D26DC51A3C05746\GameAssembly.lib �ƃI�u�W�F�N�g C:\Users\itouk\EasyMotionTracking\VS_build\build\obj\il2cppOutputProject\ARM64\Release\linkresult_FA819BD86F8836D38D26DC51A3C05746\GameAssembly.exp ���쐬��
-  Total link time: 38145 milliseconds.
-  Cleaned up 8 object files.
+  ObjectFiles: 703 of which compiled: 0
+  Total compilation time: 2719 milliseconds.
+  Cleaned up 1 object files.

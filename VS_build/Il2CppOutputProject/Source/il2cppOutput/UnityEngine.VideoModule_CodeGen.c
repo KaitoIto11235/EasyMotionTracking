@@ -118,15 +118,15 @@ static const int32_t s_InvokerIndices[26] =
 	4181,
 	2335,
 	2339,
-	696,
+	697,
 	4181,
 	2335,
 	2334,
-	687,
+	688,
 	4181,
 	2335,
 	2327,
-	678,
+	679,
 	4181,
 };
 extern const CustomAttributesCacheGenerator g_UnityEngine_VideoModule_AttributeGenerators[];
