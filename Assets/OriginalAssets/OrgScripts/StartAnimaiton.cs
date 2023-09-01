@@ -5,8 +5,8 @@ using UnityEngine;
 public class StartAnimaiton : MonoBehaviour
 {
     [SerializeField] Animator n_animator, _animator;
-    float advTime = 0.3f; // N_AvatarよりadvTimeだけ早く動く
-    float time = 2.7f; // ボタンを押してからtime+advTime秒後にN_Avatarが動き始める
+    //float advTime = 0.3f; // N_AvatarよりadvTimeだけ早く動く
+    float time = 3f; // ボタンを押してからtime+advTime秒後にN_Avatarが動き始める
 
     /// <summary>
     /// Start!ボタンが押されると呼び出される
@@ -21,10 +21,7 @@ public class StartAnimaiton : MonoBehaviour
         
         yield return new WaitForSeconds(time);
         _animator.SetTrigger("StartTri"); // T_Avatarが動き出す
-
-        
-        yield return new WaitForSeconds(advTime);
-        Debug.Log("StartAnimation");
         n_animator.SetTrigger("StartTri"); // N_Avatarが動き出す
+        Debug.Log("StartAnimation");
     }
 }

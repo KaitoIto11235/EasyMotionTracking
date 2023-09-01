@@ -596,6 +596,20 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "AdaptSpeedSystemSaver",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "AutoSpeedUpSystemSaver",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "F_AvatarDistance",
             "moduleName": "",
             "usedInScenes": []
@@ -610,14 +624,14 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "FaceHandPosSaver",
+            "fullManagedTypeName": "FoV",
             "moduleName": "",
             "usedInScenes": []
         },
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "FoV",
+            "fullManagedTypeName": "N_AvatarSpeed",
             "moduleName": "",
             "usedInScenes": []
         },

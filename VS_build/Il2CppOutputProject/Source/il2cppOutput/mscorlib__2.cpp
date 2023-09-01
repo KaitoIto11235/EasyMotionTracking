@@ -20369,8 +20369,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Boolean_ToString_m59BB8456DD05A874B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m027A8C9419D2FE56ED5D2EE42A6F3B3CE0130471 (int32_t* __this, RuntimeObject* ___provider0, const RuntimeMethod* method);
 // System.String System.Single::ToString(System.IFormatProvider)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Single_ToString_mF554E46C641C609768519378FB0486DFD7F82985 (float* __this, RuntimeObject* ___provider0, const RuntimeMethod* method);
-// System.String System.DateTime::ToString()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DateTime_ToString_m242888E500DFD8CD675BDC455BC696AF47813954 (DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 * __this, const RuntimeMethod* method);
 // System.Int32 System.ParseNumbers::StringToInt(System.String,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ParseNumbers_StringToInt_m29D1331F761C519E92581E7A94FCE0BCA103EA5D (String_t* ___value0, int32_t ___fromBase1, int32_t ___flags2, const RuntimeMethod* method);
 // System.String System.Convert::ToBase64String(System.Byte[],System.Int32,System.Int32,System.Base64FormattingOptions)
@@ -46783,15 +46781,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Convert_ToString_m6AA835543C5F39373
 		String_t* L_1;
 		L_1 = Single_ToString_mF554E46C641C609768519378FB0486DFD7F82985((float*)(&___value0), L_0, /*hidden argument*/NULL);
 		return L_1;
-	}
-}
-// System.String System.Convert::ToString(System.DateTime)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Convert_ToString_mC75958031AC61FF501F9FED3880D659C6C0CD62E (DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  ___value0, const RuntimeMethod* method)
-{
-	{
-		String_t* L_0;
-		L_0 = DateTime_ToString_m242888E500DFD8CD675BDC455BC696AF47813954((DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 *)(&___value0), /*hidden argument*/NULL);
-		return L_0;
 	}
 }
 // System.Int32 System.Convert::ToInt32(System.String,System.Int32)
