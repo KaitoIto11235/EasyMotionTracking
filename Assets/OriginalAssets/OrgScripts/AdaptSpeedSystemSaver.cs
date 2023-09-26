@@ -12,7 +12,7 @@ public class AdaptSpeedSystemSaver : MonoBehaviour
 {
     StreamWriter sw;                                    //座標記録用
     float time;                                         //ファイルが開かれてからの時間
-    float animationTime = 30f;                           // animationの時間。この秒数だけデータが記録される
+    float animationTime = 30f;                           // animationの時間。この秒数経つと強制的にCloseData()が実行される
 
     [SerializeField] Transform aWrist;                  //位置を記録したいオブジェクトのTransform
     [SerializeField] Transform aIndex;                  //位置を記録したいオブジェクトのTransform
@@ -20,7 +20,7 @@ public class AdaptSpeedSystemSaver : MonoBehaviour
     bool aVisibleWrist = true;                          // Targetを追えているときTure
     bool fileOpenFlag = false;
     [SerializeField] TextMesh textOnButton;
-    float speed = 1.0f;                                 // アニメーションのスピード
+    //float speed = 1.0f;                                 // アニメーションのスピード
 
 
     public void ClickStartButton()
@@ -82,7 +82,8 @@ public class AdaptSpeedSystemSaver : MonoBehaviour
             Debug.Log("Create_csv");
             Debug.Log(file);
 
-            speed = n_animator.GetFloat("S_keisuu");
+            //speed = n_animator.GetFloat("S_keisuu");
+
             //animationTime = 4.0f / speed;
 
             //n_animator.SetFloat("S_keisuu", speed);
@@ -148,8 +149,8 @@ public class AdaptSpeedSystemSaver : MonoBehaviour
         fileOpenFlag = false;
         aVisibleWrist = true;
         sw.Dispose();
-        n_animator.SetFloat("S_keisuu", speed);
-        _animator.SetFloat("S_keisuu", speed);
+        //n_animator.SetFloat("S_keisuu", speed);
+        //_animator.SetFloat("S_keisuu", speed);
         Debug.Log("Close_csv");
     }
 
@@ -170,12 +171,12 @@ public class AdaptSpeedSystemSaver : MonoBehaviour
             Vector3 aIndexDir = aIndex.position - face.position;
 
             float theta = ThetaCal(aWristDir, face.forward);
-            float adaptSpeed = speed - (theta * theta * speed / 196f);
+            /*float adaptSpeed = speed - (theta * theta * speed / 196f);
             if (adaptSpeed >= 0)
             {
                 n_animator.SetFloat("S_keisuu", adaptSpeed);
                 _animator.SetFloat("S_keisuu", adaptSpeed);
-            }
+            }*/
 
             aVisibleWrist = IsVisible(aWrist.position);
 
@@ -196,7 +197,7 @@ public class AdaptSpeedSystemSaver : MonoBehaviour
                 CloseData();
             }
 
-            if (n_animator.GetCurrentAnimatorStateInfo(1).IsName("Waiting"))
+            if (n_animator.GetCurrentAnimatorStateInfo(1).IsName("Waiting") && time > 3.8f)
             {
                 CloseData();
             }

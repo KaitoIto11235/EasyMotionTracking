@@ -55,7 +55,7 @@
     <build:Item Name="CodeSharingProject" Value="6A2255BE-B368-4127-9782-BD762DEA33C5" />
     <build:Item Name="VisualStudio" Version="16.0" />
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2019" />
-    <build:Item Name="OperatingSystem" Version="10.0.22621.2275 (WinBuild.160101.0800)" />
+    <build:Item Name="OperatingSystem" Version="10.0.22621.2338 (WinBuild.160101.0800)" />
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="16.0.33328.57" />
     <build:Item Name="ProjectGUID" Value="{2fabdf39-a3a3-4497-95ba-5aee089ebf0f}" />
     <build:Item Name="OptimizingToolset" Value="None" />

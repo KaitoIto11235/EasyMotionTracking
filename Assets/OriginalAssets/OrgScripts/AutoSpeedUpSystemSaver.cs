@@ -19,7 +19,8 @@ public class AutoSpeedUpSystemSaver : MonoBehaviour
     [SerializeField] Animator n_animator, _animator;
     bool aVisibleWrist = true;                          // Targetを追えているときTure
 
-    bool fileOpenFlag = false, speedUpFlag = true;
+    bool fileOpenFlag = false;
+    //bool speedUpFlag = true;
     [SerializeField] TextMesh textOnButton;
     float level = 1f;                                   // 試行レベル記録用変数
     public float speed = 0.1f;                          // アニメーションのスピード
@@ -36,6 +37,8 @@ public class AutoSpeedUpSystemSaver : MonoBehaviour
         aPos.y = CameraCache.Main.transform.position.y - 1.56f;
         aPos.z = CameraCache.Main.transform.position.y - 0.08f;
         this.transform.position = aPos;
+
+        animationTime = animationTime / n_animator.GetFloat("S_keisuu");
     }
 
     private IEnumerator DelayCoroutine()
@@ -98,8 +101,6 @@ public class AutoSpeedUpSystemSaver : MonoBehaviour
             Debug.Log("Create_csv");
             Debug.Log(file);
 
-            n_animator.SetFloat("S_keisuu", speed);
-            _animator.SetFloat("S_keisuu", speed);
         }
         else
         {
@@ -168,7 +169,7 @@ public class AutoSpeedUpSystemSaver : MonoBehaviour
         sw.Dispose();
         Debug.Log("Close_csv");
         fileOpenFlag = false;
-        speed = n_animator.GetFloat("S_keisuu");
+        /*speed = n_animator.GetFloat("S_keisuu");
 
         if (speedUpFlag && level <10)   // 手首を見失わなかった場合の処理
         {
@@ -190,20 +191,18 @@ public class AutoSpeedUpSystemSaver : MonoBehaviour
 
             aVisibleWrist = true;
             speedUpFlag = true;
-        }
+        }*/
     }
 
     void Start()
     {
-        animationTime = animationTime / 0.1f; // speedが0.1倍で始まるため。
+        //animationTime = animationTime / 0.1f; // speedが0.1倍で始まるため。
     }
 
     void FixedUpdate()
     {
         //時間を取得
         time += Time.deltaTime;
-
-        
 
         if (fileOpenFlag)
         {
@@ -215,20 +214,11 @@ public class AutoSpeedUpSystemSaver : MonoBehaviour
             aVisibleWrist = IsVisible(aWrist.position);
 
             // 追えていなければスピードアップしない
-            if (aVisibleWrist == false)
+            /*if (aVisibleWrist == false)
             {
                 speedUpFlag = false;
 
-                /*if (audioFlag == true) // 追えなかった瞬間、音で知らせる
-                {
-                    audioSource.PlayOneShot(sound1);
-                    audioFlag = false;
-                }
-            }
-            else
-            {
-                audioFlag = true;*/
-            }
+            }*/
 
             // ユーザーの手首の位置が取得できたとき"SaveDataClear()"を呼び出し、出来なかったとき"SaveData()"でaVisibleWristをfalseにする
             if (HandJointUtils.TryGetJointPose(TrackedHandJoint.Wrist, Handedness.Right, out MixedRealityPose PW))
@@ -245,7 +235,6 @@ public class AutoSpeedUpSystemSaver : MonoBehaviour
                 CloseData();
             }
         }
-
     }
 
     ///<summary>
