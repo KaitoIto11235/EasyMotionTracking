@@ -80,61 +80,93 @@ extern void U3CDelayCoroutineU3Ed__13_System_Collections_Generic_IEnumeratorU3CS
 extern void U3CDelayCoroutineU3Ed__13_System_Collections_IEnumerator_Reset_m07E5C4F74F31F018DC59414916F16211CDF31BD9 (void);
 // 0x00000022 System.Object AutoSpeedUpSystemSaver/<DelayCoroutine>d__13::System.Collections.IEnumerator.get_Current()
 extern void U3CDelayCoroutineU3Ed__13_System_Collections_IEnumerator_get_Current_m17D2376EE5054A418D3DDD94892ED465C454D698 (void);
-// 0x00000023 System.Void F_AvatarDistance::T_DistanceChange(Microsoft.MixedReality.Toolkit.UI.SliderEventData)
+// 0x00000023 System.Void CylinderTransform::Start()
+extern void CylinderTransform_Start_mCB87FAA9F1CCBDD5C25E4EEC2AB6BC27024439AB (void);
+// 0x00000024 System.Void CylinderTransform::Update()
+extern void CylinderTransform_Update_m1902515B59F39257DDAFCB2A488D9076F31CFC96 (void);
+// 0x00000025 System.Void CylinderTransform::.ctor()
+extern void CylinderTransform__ctor_m4D92328C5CB4CF79E910FE3D5D761B0D51D1BF4A (void);
+// 0x00000026 System.Void F_AvatarDistance::T_DistanceChange(Microsoft.MixedReality.Toolkit.UI.SliderEventData)
 extern void F_AvatarDistance_T_DistanceChange_m9B35C1F5C7E235BCD4585F7A2AE2C5D400FFDFFE (void);
-// 0x00000024 System.Void F_AvatarDistance::.ctor()
+// 0x00000027 System.Void F_AvatarDistance::.ctor()
 extern void F_AvatarDistance__ctor_m612AA45FBBF1ACEFECC1A6CE5475A6EEA861AC16 (void);
-// 0x00000025 System.Void F_AvatarSpeed::T_SpeedChange(Microsoft.MixedReality.Toolkit.UI.SliderEventData)
+// 0x00000028 System.Void F_AvatarSpeed::T_SpeedChange(Microsoft.MixedReality.Toolkit.UI.SliderEventData)
 extern void F_AvatarSpeed_T_SpeedChange_m1B77FE5ED71CC8BAB895CD7056449F4604E7B234 (void);
-// 0x00000026 System.Void F_AvatarSpeed::.ctor()
+// 0x00000029 System.Void F_AvatarSpeed::.ctor()
 extern void F_AvatarSpeed__ctor_mB7065C3DDB53603D4E25002AC2C17482AD490506 (void);
-// 0x00000027 System.Void FoV::Update()
+// 0x0000002A System.Void F_AvatarTransform::Start()
+extern void F_AvatarTransform_Start_m969393C269C24F7F1C8435F7A456FF33357D4C23 (void);
+// 0x0000002B System.Void F_AvatarTransform::Update()
+extern void F_AvatarTransform_Update_m8811E6AED6D9EA35B234BFC4223EDB6BA204889D (void);
+// 0x0000002C System.Void F_AvatarTransform::.ctor()
+extern void F_AvatarTransform__ctor_m1EC50C6BBE5B411461C82B72C8ADA88E4CAAF6E8 (void);
+// 0x0000002D System.Void FoV::Update()
 extern void FoV_Update_m5DE461A551E481A5132D3D43A494B454542B5C34 (void);
-// 0x00000028 System.Void FoV::.ctor()
+// 0x0000002E System.Void FoV::.ctor()
 extern void FoV__ctor_mEB58485929D34C44DF65A2F1FD81C881F92B1789 (void);
-// 0x00000029 System.Void M_AvatarTransform::Start()
-extern void M_AvatarTransform_Start_m8E777B6F34A14851F48D57854F46B1AE1B91F53C (void);
-// 0x0000002A System.Void M_AvatarTransform::Update()
-extern void M_AvatarTransform_Update_m3F3516527F6D776405C071DEF559612BA33AB945 (void);
-// 0x0000002B System.Void M_AvatarTransform::.ctor()
-extern void M_AvatarTransform__ctor_m55DF989493544425CCEB20D19DFC77584F3EF0E6 (void);
-// 0x0000002C System.Void N_AvatarSpeed::SpeedChange(Microsoft.MixedReality.Toolkit.UI.SliderEventData)
+// 0x0000002F System.Void MStartAnimation::StartAni()
+extern void MStartAnimation_StartAni_m8D02C4CD4FA642F47D8657E25336D178EA9D5100 (void);
+// 0x00000030 System.Collections.IEnumerator MStartAnimation::DelayCoroutine()
+extern void MStartAnimation_DelayCoroutine_mB7993F483608C72A973B6651B02BE14B483C9963 (void);
+// 0x00000031 System.Void MStartAnimation::.ctor()
+extern void MStartAnimation__ctor_mA24BE6B1736058902D4429FF402E08B31F84FA81 (void);
+// 0x00000032 System.Void MStartAnimation/<DelayCoroutine>d__2::.ctor(System.Int32)
+extern void U3CDelayCoroutineU3Ed__2__ctor_mDD242B912D92E7954CA52DB708DF2CD3F4E8CE07 (void);
+// 0x00000033 System.Void MStartAnimation/<DelayCoroutine>d__2::System.IDisposable.Dispose()
+extern void U3CDelayCoroutineU3Ed__2_System_IDisposable_Dispose_m6269050E18F5E35DB3155EB4FE46B1E71ED4120C (void);
+// 0x00000034 System.Boolean MStartAnimation/<DelayCoroutine>d__2::MoveNext()
+extern void U3CDelayCoroutineU3Ed__2_MoveNext_m21CFF54DD819B8688C996E811051D1A12C48ED57 (void);
+// 0x00000035 System.Object MStartAnimation/<DelayCoroutine>d__2::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CDelayCoroutineU3Ed__2_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC8CC8764592E8DE4B816C0193180EC72FB434958 (void);
+// 0x00000036 System.Void MStartAnimation/<DelayCoroutine>d__2::System.Collections.IEnumerator.Reset()
+extern void U3CDelayCoroutineU3Ed__2_System_Collections_IEnumerator_Reset_mE51B9AF361768C5AC8B2C70C9F5B1B9EDCE630A0 (void);
+// 0x00000037 System.Object MStartAnimation/<DelayCoroutine>d__2::System.Collections.IEnumerator.get_Current()
+extern void U3CDelayCoroutineU3Ed__2_System_Collections_IEnumerator_get_Current_m141C0EF0BD98F5D05E67992CB97E3F6E78DE18CF (void);
+// 0x00000038 System.Void MirrorTransform::Start()
+extern void MirrorTransform_Start_m1A1B57742E0C1E3559616E9311F197EBE92A090E (void);
+// 0x00000039 System.Void MirrorTransform::Update()
+extern void MirrorTransform_Update_mEBD314315C6FB11ECA34B49841ADD95918EF1736 (void);
+// 0x0000003A System.Void MirrorTransform::.ctor()
+extern void MirrorTransform__ctor_m6425E85C060222939BDA1E08C1250C4603E5A4F8 (void);
+// 0x0000003B System.Void N_AvatarSpeed::SpeedChange(Microsoft.MixedReality.Toolkit.UI.SliderEventData)
 extern void N_AvatarSpeed_SpeedChange_mA0F77913AB252373BA2C3BCAADEB7846A231548E (void);
-// 0x0000002D System.Void N_AvatarSpeed::.ctor()
+// 0x0000003C System.Void N_AvatarSpeed::.ctor()
 extern void N_AvatarSpeed__ctor_m082E6F0F9ACC3D6CE84583840CBB449E2C09CC54 (void);
-// 0x0000002E System.Void StartAnimaiton::StartAni()
+// 0x0000003D System.Void StartAnimaiton::StartAni()
 extern void StartAnimaiton_StartAni_m7F3CE7AF968803FDF980F07E9C2BE8DEA33B3150 (void);
-// 0x0000002F System.Collections.IEnumerator StartAnimaiton::DelayCoroutine()
+// 0x0000003E System.Collections.IEnumerator StartAnimaiton::DelayCoroutine()
 extern void StartAnimaiton_DelayCoroutine_mBFA1A615386940AAAA43CABF4271575ABB4C2B2E (void);
-// 0x00000030 System.Void StartAnimaiton::.ctor()
+// 0x0000003F System.Void StartAnimaiton::.ctor()
 extern void StartAnimaiton__ctor_m9A778BA9183084D7F8E9DE981ABA5480E2EFC8C6 (void);
-// 0x00000031 System.Void StartAnimaiton/<DelayCoroutine>d__5::.ctor(System.Int32)
+// 0x00000040 System.Void StartAnimaiton/<DelayCoroutine>d__5::.ctor(System.Int32)
 extern void U3CDelayCoroutineU3Ed__5__ctor_m47F0E9711F3DCD81CE1F77DFFE207028A251F08A (void);
-// 0x00000032 System.Void StartAnimaiton/<DelayCoroutine>d__5::System.IDisposable.Dispose()
+// 0x00000041 System.Void StartAnimaiton/<DelayCoroutine>d__5::System.IDisposable.Dispose()
 extern void U3CDelayCoroutineU3Ed__5_System_IDisposable_Dispose_mEBE7166B705173C37125A2A6CEE0BF169BBB5C34 (void);
-// 0x00000033 System.Boolean StartAnimaiton/<DelayCoroutine>d__5::MoveNext()
+// 0x00000042 System.Boolean StartAnimaiton/<DelayCoroutine>d__5::MoveNext()
 extern void U3CDelayCoroutineU3Ed__5_MoveNext_m5D28E2303A71DC2CEF5D6DE52773E50D817F79DD (void);
-// 0x00000034 System.Object StartAnimaiton/<DelayCoroutine>d__5::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000043 System.Object StartAnimaiton/<DelayCoroutine>d__5::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CDelayCoroutineU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m4A25B046CC37AD9E92A127C0AF1CD25E09A38FF1 (void);
-// 0x00000035 System.Void StartAnimaiton/<DelayCoroutine>d__5::System.Collections.IEnumerator.Reset()
+// 0x00000044 System.Void StartAnimaiton/<DelayCoroutine>d__5::System.Collections.IEnumerator.Reset()
 extern void U3CDelayCoroutineU3Ed__5_System_Collections_IEnumerator_Reset_mB90C7D45EE14EFF7D5D74F0CEAF91F6BBE3A27C5 (void);
-// 0x00000036 System.Object StartAnimaiton/<DelayCoroutine>d__5::System.Collections.IEnumerator.get_Current()
+// 0x00000045 System.Object StartAnimaiton/<DelayCoroutine>d__5::System.Collections.IEnumerator.get_Current()
 extern void U3CDelayCoroutineU3Ed__5_System_Collections_IEnumerator_get_Current_mD4D1A13757C2A2C9179CD284C79036430736A3E8 (void);
-// 0x00000037 System.Void T_AvatarDistance::.ctor()
+// 0x00000046 System.Void T_AvatarDistance::.ctor()
 extern void T_AvatarDistance__ctor_m851B078ACDD9D219BDBA7691A900FA355B4016ED (void);
-// 0x00000038 System.Void T_AvatarSpeed::T_SpeedChange(Microsoft.MixedReality.Toolkit.UI.SliderEventData)
+// 0x00000047 System.Void T_AvatarSpeed::T_SpeedChange(Microsoft.MixedReality.Toolkit.UI.SliderEventData)
 extern void T_AvatarSpeed_T_SpeedChange_mE38A2D1E076EC1EF1812BFB5489101AB6993B68B (void);
-// 0x00000039 System.Void T_AvatarSpeed::.ctor()
+// 0x00000048 System.Void T_AvatarSpeed::.ctor()
 extern void T_AvatarSpeed__ctor_m4EFBB2D7B16B95CCD2D5DA5F76AC08DB0EDA4EB8 (void);
-// 0x0000003A System.Void VFOV_Dir::Update()
+// 0x00000049 System.Void T_AvatarTransform::Start()
+extern void T_AvatarTransform_Start_m98A93C36DBF2927333D9667E832A826F5109E7CE (void);
+// 0x0000004A System.Void T_AvatarTransform::Update()
+extern void T_AvatarTransform_Update_mC90AF1F0D9CE07CED9833AF1647FF5DC4EFA1B91 (void);
+// 0x0000004B System.Void T_AvatarTransform::.ctor()
+extern void T_AvatarTransform__ctor_mFAD95F31A9EF36BE88286EF15F818A6676006FBA (void);
+// 0x0000004C System.Void VFOV_Dir::Update()
 extern void VFOV_Dir_Update_mB6E7504E259A52FB037C84858D571C1106D4F075 (void);
-// 0x0000003B System.Void VFOV_Dir::.ctor()
+// 0x0000004D System.Void VFOV_Dir::.ctor()
 extern void VFOV_Dir__ctor_m8F7A900E3920A0889325C20A953314D510B982AF (void);
-// 0x0000003C System.Void VFOV_Move::Update()
-extern void VFOV_Move_Update_m2E0EF7BE9AA90CD72B2B1F8B435F1A952298668E (void);
-// 0x0000003D System.Void VFOV_Move::.ctor()
-extern void VFOV_Move__ctor_m5119716D09D8991A565E104083E5E15FE503A69F (void);
-static Il2CppMethodPointer s_methodPointers[61] = 
+static Il2CppMethodPointer s_methodPointers[77] = 
 {
 	AdaptSpeedSystemSaver_ClickStartButton_m84B7F81EAEAF92B8E3F8B3A259E54F4D4653A1B6,
 	AdaptSpeedSystemSaver_DelayCoroutine_mD36BFCFA85D1E5C0400F6A1A87891C3F73059126,
@@ -170,15 +202,30 @@ static Il2CppMethodPointer s_methodPointers[61] =
 	U3CDelayCoroutineU3Ed__13_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m787CA4C09B6C4E8501D30CC37F7895E390501BEE,
 	U3CDelayCoroutineU3Ed__13_System_Collections_IEnumerator_Reset_m07E5C4F74F31F018DC59414916F16211CDF31BD9,
 	U3CDelayCoroutineU3Ed__13_System_Collections_IEnumerator_get_Current_m17D2376EE5054A418D3DDD94892ED465C454D698,
+	CylinderTransform_Start_mCB87FAA9F1CCBDD5C25E4EEC2AB6BC27024439AB,
+	CylinderTransform_Update_m1902515B59F39257DDAFCB2A488D9076F31CFC96,
+	CylinderTransform__ctor_m4D92328C5CB4CF79E910FE3D5D761B0D51D1BF4A,
 	F_AvatarDistance_T_DistanceChange_m9B35C1F5C7E235BCD4585F7A2AE2C5D400FFDFFE,
 	F_AvatarDistance__ctor_m612AA45FBBF1ACEFECC1A6CE5475A6EEA861AC16,
 	F_AvatarSpeed_T_SpeedChange_m1B77FE5ED71CC8BAB895CD7056449F4604E7B234,
 	F_AvatarSpeed__ctor_mB7065C3DDB53603D4E25002AC2C17482AD490506,
+	F_AvatarTransform_Start_m969393C269C24F7F1C8435F7A456FF33357D4C23,
+	F_AvatarTransform_Update_m8811E6AED6D9EA35B234BFC4223EDB6BA204889D,
+	F_AvatarTransform__ctor_m1EC50C6BBE5B411461C82B72C8ADA88E4CAAF6E8,
 	FoV_Update_m5DE461A551E481A5132D3D43A494B454542B5C34,
 	FoV__ctor_mEB58485929D34C44DF65A2F1FD81C881F92B1789,
-	M_AvatarTransform_Start_m8E777B6F34A14851F48D57854F46B1AE1B91F53C,
-	M_AvatarTransform_Update_m3F3516527F6D776405C071DEF559612BA33AB945,
-	M_AvatarTransform__ctor_m55DF989493544425CCEB20D19DFC77584F3EF0E6,
+	MStartAnimation_StartAni_m8D02C4CD4FA642F47D8657E25336D178EA9D5100,
+	MStartAnimation_DelayCoroutine_mB7993F483608C72A973B6651B02BE14B483C9963,
+	MStartAnimation__ctor_mA24BE6B1736058902D4429FF402E08B31F84FA81,
+	U3CDelayCoroutineU3Ed__2__ctor_mDD242B912D92E7954CA52DB708DF2CD3F4E8CE07,
+	U3CDelayCoroutineU3Ed__2_System_IDisposable_Dispose_m6269050E18F5E35DB3155EB4FE46B1E71ED4120C,
+	U3CDelayCoroutineU3Ed__2_MoveNext_m21CFF54DD819B8688C996E811051D1A12C48ED57,
+	U3CDelayCoroutineU3Ed__2_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC8CC8764592E8DE4B816C0193180EC72FB434958,
+	U3CDelayCoroutineU3Ed__2_System_Collections_IEnumerator_Reset_mE51B9AF361768C5AC8B2C70C9F5B1B9EDCE630A0,
+	U3CDelayCoroutineU3Ed__2_System_Collections_IEnumerator_get_Current_m141C0EF0BD98F5D05E67992CB97E3F6E78DE18CF,
+	MirrorTransform_Start_m1A1B57742E0C1E3559616E9311F197EBE92A090E,
+	MirrorTransform_Update_mEBD314315C6FB11ECA34B49841ADD95918EF1736,
+	MirrorTransform__ctor_m6425E85C060222939BDA1E08C1250C4603E5A4F8,
 	N_AvatarSpeed_SpeedChange_mA0F77913AB252373BA2C3BCAADEB7846A231548E,
 	N_AvatarSpeed__ctor_m082E6F0F9ACC3D6CE84583840CBB449E2C09CC54,
 	StartAnimaiton_StartAni_m7F3CE7AF968803FDF980F07E9C2BE8DEA33B3150,
@@ -193,12 +240,13 @@ static Il2CppMethodPointer s_methodPointers[61] =
 	T_AvatarDistance__ctor_m851B078ACDD9D219BDBA7691A900FA355B4016ED,
 	T_AvatarSpeed_T_SpeedChange_mE38A2D1E076EC1EF1812BFB5489101AB6993B68B,
 	T_AvatarSpeed__ctor_m4EFBB2D7B16B95CCD2D5DA5F76AC08DB0EDA4EB8,
+	T_AvatarTransform_Start_m98A93C36DBF2927333D9667E832A826F5109E7CE,
+	T_AvatarTransform_Update_mC90AF1F0D9CE07CED9833AF1647FF5DC4EFA1B91,
+	T_AvatarTransform__ctor_mFAD95F31A9EF36BE88286EF15F818A6676006FBA,
 	VFOV_Dir_Update_mB6E7504E259A52FB037C84858D571C1106D4F075,
 	VFOV_Dir__ctor_m8F7A900E3920A0889325C20A953314D510B982AF,
-	VFOV_Move_Update_m2E0EF7BE9AA90CD72B2B1F8B435F1A952298668E,
-	VFOV_Move__ctor_m5119716D09D8991A565E104083E5E15FE503A69F,
 };
-static const int32_t s_InvokerIndices[61] = 
+static const int32_t s_InvokerIndices[77] = 
 {
 	5128,
 	5035,
@@ -234,12 +282,27 @@ static const int32_t s_InvokerIndices[61] =
 	5035,
 	5128,
 	5035,
+	5128,
+	5128,
+	5128,
 	4181,
 	5128,
 	4181,
 	5128,
 	5128,
 	5128,
+	5128,
+	5128,
+	5128,
+	5128,
+	5035,
+	5128,
+	4145,
+	5128,
+	4926,
+	5035,
+	5128,
+	5035,
 	5128,
 	5128,
 	5128,
@@ -256,6 +319,7 @@ static const int32_t s_InvokerIndices[61] =
 	5035,
 	5128,
 	4181,
+	5128,
 	5128,
 	5128,
 	5128,
@@ -267,7 +331,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	61,
+	77,
 	s_methodPointers,
 	0,
 	NULL,

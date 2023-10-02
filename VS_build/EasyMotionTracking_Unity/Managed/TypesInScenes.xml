@@ -28,17 +28,16 @@
 		<type fullname="UnityEngine.MeshFilter" preserve="nothing"/>
 		<type fullname="UnityEngine.SkinnedMeshRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshRenderer" preserve="nothing"/>
-		<type fullname="UnityEngine.SpriteRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioSource" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioBehaviour" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioListener" preserve="nothing"/>
+		<type fullname="UnityEngine.Rigidbody" preserve="nothing"/>
 		<type fullname="UnityEngine.Collider" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.CapsuleCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.BoxCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.SphereCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.TextMesh" preserve="nothing"/>
-		<type fullname="UnityEngine.RectTransform" preserve="nothing"/>
 		<type fullname="UnityEngine.GameObject" preserve="nothing"/>
 		<type fullname="UnityEngine.AnimationClip" preserve="nothing"/>
 		<type fullname="UnityEngine.Animator" preserve="nothing"/>
@@ -46,13 +45,12 @@
 		<type fullname="UnityEngine.Motion" preserve="nothing"/>
 		<type fullname="UnityEngine.RuntimeAnimatorController" preserve="nothing"/>
 		<type fullname="UnityEngine.Avatar" preserve="nothing"/>
+		<type fullname="UnityEngine.RenderTexture" preserve="nothing"/>
 		<type fullname="UnityEngine.LightmapSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.Font" preserve="nothing"/>
 		<type fullname="UnityEngine.Mesh" preserve="nothing"/>
 		<type fullname="UnityEngine.Texture" preserve="nothing"/>
 		<type fullname="UnityEngine.Texture2D" preserve="nothing"/>
-		<type fullname="UnityEngine.Sprite" preserve="nothing"/>
-		<type fullname="UnityEngine.CanvasRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.Cubemap" preserve="nothing"/>
 		<type fullname="UnityEngine.RenderSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioClip" preserve="nothing"/>
@@ -60,14 +58,17 @@
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="AdaptSpeedSystemSaver" preserve="nothing"/>
 		<type fullname="AutoSpeedUpSystemSaver" preserve="nothing"/>
+		<type fullname="CylinderTransform" preserve="nothing"/>
 		<type fullname="F_AvatarDistance" preserve="nothing"/>
 		<type fullname="F_AvatarSpeed" preserve="nothing"/>
+		<type fullname="F_AvatarTransform" preserve="nothing"/>
 		<type fullname="FoV" preserve="nothing"/>
-		<type fullname="M_AvatarTransform" preserve="nothing"/>
+		<type fullname="MStartAnimation" preserve="nothing"/>
+		<type fullname="MirrorTransform" preserve="nothing"/>
 		<type fullname="N_AvatarSpeed" preserve="nothing"/>
 		<type fullname="StartAnimaiton" preserve="nothing"/>
+		<type fullname="T_AvatarTransform" preserve="nothing"/>
 		<type fullname="VFOV_Dir" preserve="nothing"/>
-		<type fullname="VFOV_Move" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Microsoft.MixedReality.OpenXR">
 		<type fullname="Microsoft.MixedReality.OpenXR.HPMixedRealityControllerProfile" preserve="nothing"/>
@@ -100,30 +101,17 @@
 		<type fullname="Microsoft.MixedReality.Toolkit.Teleport.ParabolicTeleportPointer" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Teleport.TeleportCursor" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.ButtonBorder" preserve="nothing"/>
-		<type fullname="Microsoft.MixedReality.Toolkit.UI.ButtonConfigHelper" preserve="nothing"/>
-		<type fullname="Microsoft.MixedReality.Toolkit.UI.ButtonIconSet" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.ButtonSize" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.ButtonSizeOffset" preserve="nothing"/>
-		<type fullname="Microsoft.MixedReality.Toolkit.UI.ConstraintManager" preserve="nothing"/>
-		<type fullname="Microsoft.MixedReality.Toolkit.UI.FeaturesPanelVisuals" preserve="nothing"/>
-		<type fullname="Microsoft.MixedReality.Toolkit.UI.InputRecordingControls" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.Interactable" preserve="nothing"/>
-		<type fullname="Microsoft.MixedReality.Toolkit.UI.ObjectManipulator" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.PinchSlider" preserve="nothing"/>
-		<type fullname="Microsoft.MixedReality.Toolkit.UI.PointerBehaviorControls" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.PressableButton" preserve="nothing"/>
-		<type fullname="Microsoft.MixedReality.Toolkit.UI.PressableButtonHoloLens2" preserve="nothing"/>
-		<type fullname="Microsoft.MixedReality.Toolkit.UI.RotationAxisConstraint" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.SliderSounds" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.States" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.Theme" preserve="nothing"/>
-		<type fullname="Microsoft.MixedReality.Toolkit.UI.ToggleHandVisualisation" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.GridObjectCollection" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.Solvers.RadialView" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.Solvers.SolverHandler" preserve="nothing"/>
-	</assembly>
-	<assembly fullname="Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem">
-		<type fullname="Microsoft.MixedReality.Toolkit.Diagnostics.VisualProfilerControl" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Microsoft.MixedReality.Toolkit.Services.InputAnimation">
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.MixedRealityInputRecordingProfile" preserve="nothing"/>
@@ -163,7 +151,6 @@
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.BezierDataProvider" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.BezierInertia" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.HoverLight" preserve="nothing"/>
-		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.MaintainBorderLightWidth" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.MixedRealityLineRenderer" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.ParabolaPhysicalLineDataProvider" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.ProximityLight" preserve="nothing"/>
@@ -179,7 +166,6 @@
 		<type fullname="TMPro.TMP_Settings" preserve="nothing"/>
 		<type fullname="TMPro.TMP_SpriteAsset" preserve="nothing"/>
 		<type fullname="TMPro.TMP_StyleSheet" preserve="nothing"/>
-		<type fullname="TMPro.TextMeshPro" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.XR.Management">
 		<type fullname="UnityEngine.XR.Management.XRGeneralSettings" preserve="nothing"/>
