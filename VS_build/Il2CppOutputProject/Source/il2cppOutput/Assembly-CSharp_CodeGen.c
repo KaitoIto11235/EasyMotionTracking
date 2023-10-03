@@ -80,48 +80,48 @@ extern void U3CDelayCoroutineU3Ed__13_System_Collections_Generic_IEnumeratorU3CS
 extern void U3CDelayCoroutineU3Ed__13_System_Collections_IEnumerator_Reset_m07E5C4F74F31F018DC59414916F16211CDF31BD9 (void);
 // 0x00000022 System.Object AutoSpeedUpSystemSaver/<DelayCoroutine>d__13::System.Collections.IEnumerator.get_Current()
 extern void U3CDelayCoroutineU3Ed__13_System_Collections_IEnumerator_get_Current_m17D2376EE5054A418D3DDD94892ED465C454D698 (void);
-// 0x00000023 System.Void CylinderTransform::Start()
-extern void CylinderTransform_Start_mCB87FAA9F1CCBDD5C25E4EEC2AB6BC27024439AB (void);
-// 0x00000024 System.Void CylinderTransform::Update()
-extern void CylinderTransform_Update_m1902515B59F39257DDAFCB2A488D9076F31CFC96 (void);
-// 0x00000025 System.Void CylinderTransform::.ctor()
-extern void CylinderTransform__ctor_m4D92328C5CB4CF79E910FE3D5D761B0D51D1BF4A (void);
-// 0x00000026 System.Void F_AvatarDistance::T_DistanceChange(Microsoft.MixedReality.Toolkit.UI.SliderEventData)
+// 0x00000023 System.Void F_AvatarDistance::T_DistanceChange(Microsoft.MixedReality.Toolkit.UI.SliderEventData)
 extern void F_AvatarDistance_T_DistanceChange_m9B35C1F5C7E235BCD4585F7A2AE2C5D400FFDFFE (void);
-// 0x00000027 System.Void F_AvatarDistance::.ctor()
+// 0x00000024 System.Void F_AvatarDistance::.ctor()
 extern void F_AvatarDistance__ctor_m612AA45FBBF1ACEFECC1A6CE5475A6EEA861AC16 (void);
-// 0x00000028 System.Void F_AvatarSpeed::T_SpeedChange(Microsoft.MixedReality.Toolkit.UI.SliderEventData)
+// 0x00000025 System.Void F_AvatarSpeed::T_SpeedChange(Microsoft.MixedReality.Toolkit.UI.SliderEventData)
 extern void F_AvatarSpeed_T_SpeedChange_m1B77FE5ED71CC8BAB895CD7056449F4604E7B234 (void);
-// 0x00000029 System.Void F_AvatarSpeed::.ctor()
+// 0x00000026 System.Void F_AvatarSpeed::.ctor()
 extern void F_AvatarSpeed__ctor_mB7065C3DDB53603D4E25002AC2C17482AD490506 (void);
-// 0x0000002A System.Void F_AvatarTransform::Start()
+// 0x00000027 System.Void F_AvatarTransform::Start()
 extern void F_AvatarTransform_Start_m969393C269C24F7F1C8435F7A456FF33357D4C23 (void);
-// 0x0000002B System.Void F_AvatarTransform::Update()
+// 0x00000028 System.Void F_AvatarTransform::Update()
 extern void F_AvatarTransform_Update_m8811E6AED6D9EA35B234BFC4223EDB6BA204889D (void);
-// 0x0000002C System.Void F_AvatarTransform::.ctor()
+// 0x00000029 System.Void F_AvatarTransform::.ctor()
 extern void F_AvatarTransform__ctor_m1EC50C6BBE5B411461C82B72C8ADA88E4CAAF6E8 (void);
-// 0x0000002D System.Void FoV::Update()
+// 0x0000002A System.Void FoV::Update()
 extern void FoV_Update_m5DE461A551E481A5132D3D43A494B454542B5C34 (void);
-// 0x0000002E System.Void FoV::.ctor()
+// 0x0000002B System.Void FoV::.ctor()
 extern void FoV__ctor_mEB58485929D34C44DF65A2F1FD81C881F92B1789 (void);
-// 0x0000002F System.Void MStartAnimation::StartAni()
+// 0x0000002C System.Void MStartAnimation::StartAni()
 extern void MStartAnimation_StartAni_m8D02C4CD4FA642F47D8657E25336D178EA9D5100 (void);
-// 0x00000030 System.Collections.IEnumerator MStartAnimation::DelayCoroutine()
+// 0x0000002D System.Collections.IEnumerator MStartAnimation::DelayCoroutine()
 extern void MStartAnimation_DelayCoroutine_mB7993F483608C72A973B6651B02BE14B483C9963 (void);
-// 0x00000031 System.Void MStartAnimation::.ctor()
+// 0x0000002E System.Void MStartAnimation::.ctor()
 extern void MStartAnimation__ctor_mA24BE6B1736058902D4429FF402E08B31F84FA81 (void);
-// 0x00000032 System.Void MStartAnimation/<DelayCoroutine>d__2::.ctor(System.Int32)
+// 0x0000002F System.Void MStartAnimation/<DelayCoroutine>d__2::.ctor(System.Int32)
 extern void U3CDelayCoroutineU3Ed__2__ctor_mDD242B912D92E7954CA52DB708DF2CD3F4E8CE07 (void);
-// 0x00000033 System.Void MStartAnimation/<DelayCoroutine>d__2::System.IDisposable.Dispose()
+// 0x00000030 System.Void MStartAnimation/<DelayCoroutine>d__2::System.IDisposable.Dispose()
 extern void U3CDelayCoroutineU3Ed__2_System_IDisposable_Dispose_m6269050E18F5E35DB3155EB4FE46B1E71ED4120C (void);
-// 0x00000034 System.Boolean MStartAnimation/<DelayCoroutine>d__2::MoveNext()
+// 0x00000031 System.Boolean MStartAnimation/<DelayCoroutine>d__2::MoveNext()
 extern void U3CDelayCoroutineU3Ed__2_MoveNext_m21CFF54DD819B8688C996E811051D1A12C48ED57 (void);
-// 0x00000035 System.Object MStartAnimation/<DelayCoroutine>d__2::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000032 System.Object MStartAnimation/<DelayCoroutine>d__2::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CDelayCoroutineU3Ed__2_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC8CC8764592E8DE4B816C0193180EC72FB434958 (void);
-// 0x00000036 System.Void MStartAnimation/<DelayCoroutine>d__2::System.Collections.IEnumerator.Reset()
+// 0x00000033 System.Void MStartAnimation/<DelayCoroutine>d__2::System.Collections.IEnumerator.Reset()
 extern void U3CDelayCoroutineU3Ed__2_System_Collections_IEnumerator_Reset_mE51B9AF361768C5AC8B2C70C9F5B1B9EDCE630A0 (void);
-// 0x00000037 System.Object MStartAnimation/<DelayCoroutine>d__2::System.Collections.IEnumerator.get_Current()
+// 0x00000034 System.Object MStartAnimation/<DelayCoroutine>d__2::System.Collections.IEnumerator.get_Current()
 extern void U3CDelayCoroutineU3Ed__2_System_Collections_IEnumerator_get_Current_m141C0EF0BD98F5D05E67992CB97E3F6E78DE18CF (void);
+// 0x00000035 System.Void MirrorCameraTransform::Start()
+extern void MirrorCameraTransform_Start_m7472771D2AB5D74C333194CCB604C817D00DB556 (void);
+// 0x00000036 System.Void MirrorCameraTransform::Update()
+extern void MirrorCameraTransform_Update_mCF8B1694EBDBAA4C6B7991ACB83F569E71845AF5 (void);
+// 0x00000037 System.Void MirrorCameraTransform::.ctor()
+extern void MirrorCameraTransform__ctor_m547C94CEF8DCFE307F05B1FC8DBB595F6D6C0AB6 (void);
 // 0x00000038 System.Void MirrorTransform::Start()
 extern void MirrorTransform_Start_m1A1B57742E0C1E3559616E9311F197EBE92A090E (void);
 // 0x00000039 System.Void MirrorTransform::Update()
@@ -162,11 +162,17 @@ extern void T_AvatarTransform_Start_m98A93C36DBF2927333D9667E832A826F5109E7CE (v
 extern void T_AvatarTransform_Update_mC90AF1F0D9CE07CED9833AF1647FF5DC4EFA1B91 (void);
 // 0x0000004B System.Void T_AvatarTransform::.ctor()
 extern void T_AvatarTransform__ctor_mFAD95F31A9EF36BE88286EF15F818A6676006FBA (void);
-// 0x0000004C System.Void VFOV_Dir::Update()
+// 0x0000004C System.Void TensionRodTransform::Start()
+extern void TensionRodTransform_Start_m3012D94EBF4BC126CD81BA44D4F2F756BC57C43F (void);
+// 0x0000004D System.Void TensionRodTransform::Update()
+extern void TensionRodTransform_Update_mF8FDFC0A28CBBDC6E00DCBB8D964F923BA8A13F4 (void);
+// 0x0000004E System.Void TensionRodTransform::.ctor()
+extern void TensionRodTransform__ctor_mB53CBC516C815CC28BEE87CC1F4DF0BEE64B2772 (void);
+// 0x0000004F System.Void VFOV_Dir::Update()
 extern void VFOV_Dir_Update_mB6E7504E259A52FB037C84858D571C1106D4F075 (void);
-// 0x0000004D System.Void VFOV_Dir::.ctor()
+// 0x00000050 System.Void VFOV_Dir::.ctor()
 extern void VFOV_Dir__ctor_m8F7A900E3920A0889325C20A953314D510B982AF (void);
-static Il2CppMethodPointer s_methodPointers[77] = 
+static Il2CppMethodPointer s_methodPointers[80] = 
 {
 	AdaptSpeedSystemSaver_ClickStartButton_m84B7F81EAEAF92B8E3F8B3A259E54F4D4653A1B6,
 	AdaptSpeedSystemSaver_DelayCoroutine_mD36BFCFA85D1E5C0400F6A1A87891C3F73059126,
@@ -202,9 +208,6 @@ static Il2CppMethodPointer s_methodPointers[77] =
 	U3CDelayCoroutineU3Ed__13_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m787CA4C09B6C4E8501D30CC37F7895E390501BEE,
 	U3CDelayCoroutineU3Ed__13_System_Collections_IEnumerator_Reset_m07E5C4F74F31F018DC59414916F16211CDF31BD9,
 	U3CDelayCoroutineU3Ed__13_System_Collections_IEnumerator_get_Current_m17D2376EE5054A418D3DDD94892ED465C454D698,
-	CylinderTransform_Start_mCB87FAA9F1CCBDD5C25E4EEC2AB6BC27024439AB,
-	CylinderTransform_Update_m1902515B59F39257DDAFCB2A488D9076F31CFC96,
-	CylinderTransform__ctor_m4D92328C5CB4CF79E910FE3D5D761B0D51D1BF4A,
 	F_AvatarDistance_T_DistanceChange_m9B35C1F5C7E235BCD4585F7A2AE2C5D400FFDFFE,
 	F_AvatarDistance__ctor_m612AA45FBBF1ACEFECC1A6CE5475A6EEA861AC16,
 	F_AvatarSpeed_T_SpeedChange_m1B77FE5ED71CC8BAB895CD7056449F4604E7B234,
@@ -223,6 +226,9 @@ static Il2CppMethodPointer s_methodPointers[77] =
 	U3CDelayCoroutineU3Ed__2_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC8CC8764592E8DE4B816C0193180EC72FB434958,
 	U3CDelayCoroutineU3Ed__2_System_Collections_IEnumerator_Reset_mE51B9AF361768C5AC8B2C70C9F5B1B9EDCE630A0,
 	U3CDelayCoroutineU3Ed__2_System_Collections_IEnumerator_get_Current_m141C0EF0BD98F5D05E67992CB97E3F6E78DE18CF,
+	MirrorCameraTransform_Start_m7472771D2AB5D74C333194CCB604C817D00DB556,
+	MirrorCameraTransform_Update_mCF8B1694EBDBAA4C6B7991ACB83F569E71845AF5,
+	MirrorCameraTransform__ctor_m547C94CEF8DCFE307F05B1FC8DBB595F6D6C0AB6,
 	MirrorTransform_Start_m1A1B57742E0C1E3559616E9311F197EBE92A090E,
 	MirrorTransform_Update_mEBD314315C6FB11ECA34B49841ADD95918EF1736,
 	MirrorTransform__ctor_m6425E85C060222939BDA1E08C1250C4603E5A4F8,
@@ -243,10 +249,13 @@ static Il2CppMethodPointer s_methodPointers[77] =
 	T_AvatarTransform_Start_m98A93C36DBF2927333D9667E832A826F5109E7CE,
 	T_AvatarTransform_Update_mC90AF1F0D9CE07CED9833AF1647FF5DC4EFA1B91,
 	T_AvatarTransform__ctor_mFAD95F31A9EF36BE88286EF15F818A6676006FBA,
+	TensionRodTransform_Start_m3012D94EBF4BC126CD81BA44D4F2F756BC57C43F,
+	TensionRodTransform_Update_mF8FDFC0A28CBBDC6E00DCBB8D964F923BA8A13F4,
+	TensionRodTransform__ctor_mB53CBC516C815CC28BEE87CC1F4DF0BEE64B2772,
 	VFOV_Dir_Update_mB6E7504E259A52FB037C84858D571C1106D4F075,
 	VFOV_Dir__ctor_m8F7A900E3920A0889325C20A953314D510B982AF,
 };
-static const int32_t s_InvokerIndices[77] = 
+static const int32_t s_InvokerIndices[80] = 
 {
 	5128,
 	5035,
@@ -282,9 +291,6 @@ static const int32_t s_InvokerIndices[77] =
 	5035,
 	5128,
 	5035,
-	5128,
-	5128,
-	5128,
 	4181,
 	5128,
 	4181,
@@ -306,6 +312,9 @@ static const int32_t s_InvokerIndices[77] =
 	5128,
 	5128,
 	5128,
+	5128,
+	5128,
+	5128,
 	4181,
 	5128,
 	5128,
@@ -319,6 +328,9 @@ static const int32_t s_InvokerIndices[77] =
 	5035,
 	5128,
 	4181,
+	5128,
+	5128,
+	5128,
 	5128,
 	5128,
 	5128,
@@ -331,7 +343,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	77,
+	80,
 	s_methodPointers,
 	0,
 	NULL,

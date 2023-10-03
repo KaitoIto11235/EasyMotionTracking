@@ -6,31 +6,18 @@
   
   	Output directory: C:\Users\itouk\EasyMotionTracking\VS_build\build\bin\ARM64\Release
   	Cache directory: C:\Users\itouk\EasyMotionTracking\VS_build\build\obj\il2cppOutputProject\ARM64\Release
-  Il2CppGenericMethodTable.c
-  Il2CppCCTypeValuesTable.cpp
   Il2CppGenericMethodDefinitions.c
-  Il2CppCCalculateFieldValues2.cpp
-  Il2CppGenericMethodPointerTable.cpp
-  Assembly-CSharp_Attr.cpp
+  Il2CppGenericMethodTable.c
   Assembly-CSharp.cpp
-  Il2CppMetadataRegistration.c
-  Il2CppCCalculateTypeValues1.cpp
-  Assembly-CSharp_CodeGen.c
-  Il2CppCCFieldValuesTable.cpp
+  Il2CppGenericMethodPointerTable.cpp
   Il2CppMetadataUsage.c
-  Il2CppTypeDefinitions.c
-  ObjectFiles: 703 of which compiled: 13
-  	Time Compile: 4386 milliseconds Il2CppTypeDefinitions.c
-  	Time Compile: 4377 milliseconds Il2CppMetadataUsage.c
-  	Time Compile: 4274 milliseconds Il2CppCCalculateTypeValues1.cpp
-  	Time Compile: 3095 milliseconds Il2CppGenericMethodPointerTable.cpp
-  	Time Compile: 2946 milliseconds Il2CppCCalculateFieldValues2.cpp
-  	Time Compile: 2511 milliseconds Il2CppGenericMethodTable.c
-  	Time Compile: 2511 milliseconds Il2CppGenericMethodDefinitions.c
-  	Time Compile: 2505 milliseconds Il2CppCCTypeValuesTable.cpp
-  	Time Compile: 1729 milliseconds Assembly-CSharp.cpp
-  	Time Compile: 1701 milliseconds Il2CppCCFieldValuesTable.cpp
-  Total compilation time: 7841 milliseconds.
-  ���C�u���� C:\Users\itouk\EasyMotionTracking\VS_build\build\obj\il2cppOutputProject\ARM64\Release\linkresult_900EE6AD186CC1C85D1638E65BD62C09\GameAssembly.lib �ƃI�u�W�F�N�g C:\Users\itouk\EasyMotionTracking\VS_build\build\obj\il2cppOutputProject\ARM64\Release\linkresult_900EE6AD186CC1C85D1638E65BD62C09\GameAssembly.exp ���쐬��
-  Total link time: 31971 milliseconds.
-  Cleaned up 15 object files.
+  ObjectFiles: 703 of which compiled: 5
+  	Time Compile: 2104 milliseconds Il2CppMetadataUsage.c
+  	Time Compile: 1938 milliseconds Il2CppGenericMethodPointerTable.cpp
+  	Time Compile: 1311 milliseconds Assembly-CSharp.cpp
+  	Time Compile: 1264 milliseconds Il2CppGenericMethodTable.c
+  	Time Compile: 1136 milliseconds Il2CppGenericMethodDefinitions.c
+  Total compilation time: 4759 milliseconds.
+  ���C�u���� C:\Users\itouk\EasyMotionTracking\VS_build\build\obj\il2cppOutputProject\ARM64\Release\linkresult_02E5EC5D991F344F6205CE1585BB23CF\GameAssembly.lib �ƃI�u�W�F�N�g C:\Users\itouk\EasyMotionTracking\VS_build\build\obj\il2cppOutputProject\ARM64\Release\linkresult_02E5EC5D991F344F6205CE1585BB23CF\GameAssembly.exp ���쐬��
+  Total link time: 26771 milliseconds.
+  Cleaned up 7 object files.

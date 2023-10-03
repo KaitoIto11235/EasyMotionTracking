@@ -7,7 +7,7 @@ using Microsoft.MixedReality.Toolkit.Input;
 
 public class MirrorTransform : MonoBehaviour
 {
-    [SerializeField] Transform _nAvaShoulder;
+    [SerializeField] Transform _nAvaWristR;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,8 +18,8 @@ public class MirrorTransform : MonoBehaviour
     void Update()
     {
         Transform eye = CameraCache.Main.transform;
-        this.transform.position = eye.forward;
-        Vector3 direction = _nAvaShoulder.position - this.transform.position;
+        this.transform.position = 2f * (_nAvaWristR.position - eye.position);
+        Vector3 direction = eye.position - this.transform.position;
         this.transform.rotation = Quaternion.LookRotation(-1.0f * direction);
     }
 }
