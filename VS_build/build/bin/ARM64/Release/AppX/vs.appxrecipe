@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\itouk\EasyMotionTracking\VS_build\build\bin\ARM64\Release\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-10-03T04:03:46.237</Modified>
+      <Modified>2023-10-05T03:41:15.018</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\itouk\EasyMotionTracking\VS_build\build\bin\ARM64\Release\EasyMotionTracking_Unity.exe">
       <PackagePath>EasyMotionTracking_Unity.exe</PackagePath>
-      <Modified>2023-10-03T04:03:44.956</Modified>
+      <Modified>2023-10-05T03:41:14.013</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2020.3.47f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Release\UnityPlayer.winmd">
       <PackagePath>UnityPlayer.winmd</PackagePath>
@@ -86,7 +86,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itouk\EasyMotionTracking\VS_build\EasyMotionTracking_Unity\StoreManifest.xml">
       <PackagePath>StoreManifest.xml</PackagePath>
-      <Modified>2023-10-03T03:59:45.345</Modified>
+      <Modified>2023-10-05T03:20:12.589</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itouk\EasyMotionTracking\VS_build\EasyMotionTracking_Unity\Data\il2cpp_data\etc\mono\mconfig\config.xml">
       <PackagePath>Data\il2cpp_data\etc\mono\mconfig\config.xml</PackagePath>
@@ -94,7 +94,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itouk\EasyMotionTracking\VS_build\EasyMotionTracking_Unity\Data\boot.config">
       <PackagePath>Data\boot.config</PackagePath>
-      <Modified>2023-10-03T03:59:36.904</Modified>
+      <Modified>2023-10-05T03:20:01.154</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itouk\EasyMotionTracking\VS_build\EasyMotionTracking_Unity\Data\il2cpp_data\etc\mono\2.0\machine.config">
       <PackagePath>Data\il2cpp_data\etc\mono\2.0\machine.config</PackagePath>
@@ -122,11 +122,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itouk\EasyMotionTracking\VS_build\EasyMotionTracking_Unity\Data\globalgamemanagers">
       <PackagePath>Data\globalgamemanagers</PackagePath>
-      <Modified>2023-10-03T03:58:35.955</Modified>
+      <Modified>2023-10-05T03:19:04.302</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itouk\EasyMotionTracking\VS_build\EasyMotionTracking_Unity\Data\level0">
       <PackagePath>Data\level0</PackagePath>
-      <Modified>2023-10-03T03:58:30.661</Modified>
+      <Modified>2023-10-05T03:18:59.169</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itouk\EasyMotionTracking\VS_build\EasyMotionTracking_Unity\Data\il2cpp_data\etc\mono\config">
       <PackagePath>Data\il2cpp_data\etc\mono\config</PackagePath>
@@ -138,43 +138,43 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itouk\EasyMotionTracking\VS_build\EasyMotionTracking_Unity\Data\Resources\unity_builtin_extra">
       <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
-      <Modified>2023-10-03T03:59:36.894</Modified>
+      <Modified>2023-10-05T03:20:01.141</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itouk\EasyMotionTracking\VS_build\EasyMotionTracking_Unity\Data\globalgamemanagers.assets">
       <PackagePath>Data\globalgamemanagers.assets</PackagePath>
-      <Modified>2023-10-03T03:58:36.224</Modified>
+      <Modified>2023-10-05T03:19:04.640</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itouk\EasyMotionTracking\VS_build\EasyMotionTracking_Unity\Data\resources.assets">
       <PackagePath>Data\resources.assets</PackagePath>
-      <Modified>2023-10-03T03:58:37.175</Modified>
+      <Modified>2023-10-05T03:19:05.530</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itouk\EasyMotionTracking\VS_build\EasyMotionTracking_Unity\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
-      <Modified>2023-10-03T03:59:27.625</Modified>
+      <Modified>2023-10-05T03:19:51.606</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itouk\EasyMotionTracking\VS_build\EasyMotionTracking_Unity\Data\level0.resS">
       <PackagePath>Data\level0.resS</PackagePath>
-      <Modified>2023-10-03T03:58:30.645</Modified>
+      <Modified>2023-10-05T03:18:59.159</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itouk\EasyMotionTracking\VS_build\EasyMotionTracking_Unity\Data\resources.assets.resS">
       <PackagePath>Data\resources.assets.resS</PackagePath>
-      <Modified>2023-10-03T03:58:37.175</Modified>
+      <Modified>2023-10-05T03:19:05.528</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itouk\EasyMotionTracking\VS_build\EasyMotionTracking_Unity\Data\sharedassets0.assets.resS">
       <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
-      <Modified>2023-10-03T03:59:27.619</Modified>
+      <Modified>2023-10-05T03:19:51.594</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itouk\EasyMotionTracking\VS_build\EasyMotionTracking_Unity\Data\nativePlugins.txt">
       <PackagePath>Data\nativePlugins.txt</PackagePath>
-      <Modified>2023-10-03T04:01:10.224</Modified>
+      <Modified>2023-10-05T03:21:48.493</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itouk\EasyMotionTracking\VS_build\EasyMotionTracking_Unity\Data\RuntimeInitializeOnLoads.json">
       <PackagePath>Data\RuntimeInitializeOnLoads.json</PackagePath>
-      <Modified>2023-10-03T03:58:29.539</Modified>
+      <Modified>2023-10-05T03:18:28.403</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itouk\EasyMotionTracking\VS_build\EasyMotionTracking_Unity\Data\ScriptingAssemblies.json">
       <PackagePath>Data\ScriptingAssemblies.json</PackagePath>
-      <Modified>2023-10-03T03:58:35.464</Modified>
+      <Modified>2023-10-05T03:19:03.891</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itouk\EasyMotionTracking\VS_build\EasyMotionTracking_Unity\Data\UnitySubsystems\MicrosoftOpenXRPlugin\UnitySubsystemsManifest.json">
       <PackagePath>Data\UnitySubsystems\MicrosoftOpenXRPlugin\UnitySubsystemsManifest.json</PackagePath>
@@ -186,7 +186,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itouk\EasyMotionTracking\VS_build\EasyMotionTracking_Unity\Data\sharedassets0.resource">
       <PackagePath>Data\sharedassets0.resource</PackagePath>
-      <Modified>2023-10-03T03:59:27.575</Modified>
+      <Modified>2023-10-05T03:19:51.545</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itouk\EasyMotionTracking\VS_build\EasyMotionTracking_Unity\Data\il2cpp_data\etc\mono\browscap.ini">
       <PackagePath>Data\il2cpp_data\etc\mono\browscap.ini</PackagePath>
@@ -230,15 +230,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itouk\EasyMotionTracking\VS_build\EasyMotionTracking_Unity\Data\il2cpp_data\Metadata\global-metadata.dat">
       <PackagePath>Data\il2cpp_data\Metadata\global-metadata.dat</PackagePath>
-      <Modified>2023-10-03T04:00:42.395</Modified>
+      <Modified>2023-10-05T03:21:17.851</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itouk\EasyMotionTracking\VS_build\EasyMotionTracking_Unity\Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat">
       <PackagePath>Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat</PackagePath>
-      <Modified>2023-10-03T04:00:14.825</Modified>
+      <Modified>2023-10-05T03:20:44.536</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itouk\EasyMotionTracking\VS_build\EasyMotionTracking_Unity\Data\il2cpp_data\Resources\mscorlib.dll-resources.dat">
       <PackagePath>Data\il2cpp_data\Resources\mscorlib.dll-resources.dat</PackagePath>
-      <Modified>2023-10-03T04:00:14.819</Modified>
+      <Modified>2023-10-05T03:20:44.531</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itouk\EasyMotionTracking\VS_build\EasyMotionTracking_Unity\UnityOpenXR.dll">
       <PackagePath>UnityOpenXR.dll</PackagePath>
@@ -254,7 +254,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itouk\EasyMotionTracking\VS_build\build\bin\ARM64\Release\GameAssembly.dll">
       <PackagePath>GameAssembly.dll</PackagePath>
-      <Modified>2023-10-03T04:03:39.002</Modified>
+      <Modified>2023-10-05T03:41:09.367</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2020.3.47f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Release\baselib.dll">
       <PackagePath>baselib.dll</PackagePath>
@@ -262,7 +262,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\itouk\EasyMotionTracking\VS_build\build\bin\ARM64\Release\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-10-03T04:03:45.829</Modified>
+      <Modified>2023-10-05T03:41:14.667</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

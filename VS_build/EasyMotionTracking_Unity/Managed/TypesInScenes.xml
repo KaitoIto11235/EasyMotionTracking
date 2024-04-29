@@ -66,10 +66,12 @@
 		<type fullname="MirrorCameraTransform" preserve="nothing"/>
 		<type fullname="MirrorTransform" preserve="nothing"/>
 		<type fullname="N_AvatarSpeed" preserve="nothing"/>
+		<type fullname="QuadTransform" preserve="nothing"/>
 		<type fullname="StartAnimaiton" preserve="nothing"/>
 		<type fullname="T_AvatarTransform" preserve="nothing"/>
 		<type fullname="TensionRodTransform" preserve="nothing"/>
 		<type fullname="VFOV_Dir" preserve="nothing"/>
+		<type fullname="ViewportTransform" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Microsoft.MixedReality.OpenXR">
 		<type fullname="Microsoft.MixedReality.OpenXR.HPMixedRealityControllerProfile" preserve="nothing"/>

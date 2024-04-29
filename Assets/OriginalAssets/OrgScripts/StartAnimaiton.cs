@@ -5,8 +5,8 @@ using UnityEngine;
 public class StartAnimaiton : MonoBehaviour
 {
     [SerializeField] Animator n_animator, _animator;
-    float advTime = 0.3f; // N_AvatarよりadvTimeだけ早く動く
-    float time = 2.7f; // ボタンを押してからtime+advTime秒後にN_Avatarが動き始める
+    float advTime = 0f; // N_AvatarよりadvTimeだけ早く動く
+    float time = 3f; // ボタンを押してからtime+advTime秒後にN_Avatarが動き始める
 
     /// <summary>
     /// Start!ボタンが押されると呼び出される

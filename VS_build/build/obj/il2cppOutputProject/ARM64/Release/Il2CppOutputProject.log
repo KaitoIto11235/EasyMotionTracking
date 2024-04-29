@@ -6,18 +6,91 @@
   
   	Output directory: C:\Users\itouk\EasyMotionTracking\VS_build\build\bin\ARM64\Release
   	Cache directory: C:\Users\itouk\EasyMotionTracking\VS_build\build\obj\il2cppOutputProject\ARM64\Release
-  Il2CppGenericMethodDefinitions.c
-  Il2CppGenericMethodTable.c
-  Assembly-CSharp.cpp
   Il2CppGenericMethodPointerTable.cpp
+  Il2CppCCalculateTypeValues1.cpp
   Il2CppMetadataUsage.c
-  ObjectFiles: 703 of which compiled: 5
-  	Time Compile: 2104 milliseconds Il2CppMetadataUsage.c
-  	Time Compile: 1938 milliseconds Il2CppGenericMethodPointerTable.cpp
-  	Time Compile: 1311 milliseconds Assembly-CSharp.cpp
-  	Time Compile: 1264 milliseconds Il2CppGenericMethodTable.c
-  	Time Compile: 1136 milliseconds Il2CppGenericMethodDefinitions.c
-  Total compilation time: 4759 milliseconds.
-  ���C�u���� C:\Users\itouk\EasyMotionTracking\VS_build\build\obj\il2cppOutputProject\ARM64\Release\linkresult_02E5EC5D991F344F6205CE1585BB23CF\GameAssembly.lib �ƃI�u�W�F�N�g C:\Users\itouk\EasyMotionTracking\VS_build\build\obj\il2cppOutputProject\ARM64\Release\linkresult_02E5EC5D991F344F6205CE1585BB23CF\GameAssembly.exp ���쐬��
-  Total link time: 26771 milliseconds.
-  Cleaned up 7 object files.
+  Il2CppTypeDefinitions.c
+  Il2CppInteropDataTable.cpp
+  mscorlib_CodeGen.c
+  Il2CppCCalculateTypeValues.cpp
+  Il2CppCCalculateFieldValues1.cpp
+  Microsoft.MixedReality.OpenXR.cpp
+  Generics.cpp
+  Il2CppPCCWMethods.cpp
+  GenericMethods__12.cpp
+  mscorlib__10.cpp
+  Il2CppCCWs__79.cpp
+  UnityEngine.CoreModule.cpp
+  Il2CppCCalculateFieldValues2.cpp
+  Il2CppCCWs__31.cpp
+  mscorlib__8.cpp
+  Il2CppGenericMethodTable.c
+  Generics__4.cpp
+  UnityEngine.CoreModule_Attr.cpp
+  Microsoft.MixedReality.Toolkit.Gltf.cpp
+  Il2CppCCWs__4.cpp
+  Il2CppGenericMethodDefinitions.c
+  Il2CppCCWs__94.cpp
+  mscorlib_Attr.cpp
+  Il2CppCCWs__69.cpp
+  System.Runtime.WindowsRuntime.cpp
+  Generics__23.cpp
+  GenericMethods__13.cpp
+  WindowsRuntimeMetadata.cpp
+  Il2CppCCWs__105.cpp
+  UnityEngine.CoreModule_CodeGen.c
+  Il2CppCCWs__38.cpp
+  Il2CppCCWs__106.cpp
+  Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.cpp
+  Il2CppCCWs__23.cpp
+  Microsoft.MixedReality.Toolkit.SDK__8.cpp
+  Il2CppCCTypeValuesTable.cpp
+  Il2CppCCWs__21.cpp
+  Il2CppCCWs.cpp
+  Il2CppCCWs__22.cpp
+  Il2CppCCWs__78.cpp
+  Il2CppCCWs__104.cpp
+  Il2CppCCWs__95.cpp
+  Il2CppCCWs__20.cpp
+  Il2CppCCWs__62.cpp
+  Il2CppCCWs__28.cpp
+  Il2CppCCWs__24.cpp
+  Il2CppCCWs__101.cpp
+  Il2CppCCWs__100.cpp
+  Il2CppCCWs__73.cpp
+  Il2CppCCWs__25.cpp
+  Il2CppCCWs__26.cpp
+  Il2CppCCWs__99.cpp
+  Il2CppCCWs__29.cpp
+  Il2CppCCWs__27.cpp
+  Il2CppCCWs__3.cpp
+  Il2CppCCWs__97.cpp
+  Il2CppCCWs__34.cpp
+  Il2CppCCFieldValuesTable.cpp
+  Il2CppCCWs__98.cpp
+  Assembly-CSharp.cpp
+  Il2CppCCWs__103.cpp
+  WindowsRuntimeMetadata_CodeGen.c
+  Il2CppCCWs__96.cpp
+  Il2CppCCWs__30.cpp
+  Il2CppCCWs__74.cpp
+  Il2CppCCWs__102.cpp
+  Assembly-CSharp_Attr.cpp
+  Il2CppMetadataRegistration.c
+  Assembly-CSharp_CodeGen.c
+  Il2CppCCWs__33.cpp
+  ObjectFiles: 703 of which compiled: 73
+  	Time Compile: 54939 milliseconds Generics__23.cpp
+  	Time Compile: 49193 milliseconds Il2CppCCWs__69.cpp
+  	Time Compile: 47849 milliseconds Il2CppCCWs__4.cpp
+  	Time Compile: 42113 milliseconds Il2CppCCWs__31.cpp
+  	Time Compile: 25426 milliseconds Il2CppCCWs__79.cpp
+  	Time Compile: 21402 milliseconds Il2CppPCCWMethods.cpp
+  	Time Compile: 14945 milliseconds Il2CppCCWs__94.cpp
+  	Time Compile: 14098 milliseconds Generics__4.cpp
+  	Time Compile: 14084 milliseconds GenericMethods__12.cpp
+  	Time Compile: 13439 milliseconds mscorlib__10.cpp
+  Total compilation time: 74387 milliseconds.
+  ���C�u���� C:\Users\itouk\EasyMotionTracking\VS_build\build\obj\il2cppOutputProject\ARM64\Release\linkresult_6EB932E7B9DEC8C20B8D51BE9E0FC37C\GameAssembly.lib �ƃI�u�W�F�N�g C:\Users\itouk\EasyMotionTracking\VS_build\build\obj\il2cppOutputProject\ARM64\Release\linkresult_6EB932E7B9DEC8C20B8D51BE9E0FC37C\GameAssembly.exp ���쐬��
+  Total link time: 28710 milliseconds.
+  Cleaned up 75 object files.

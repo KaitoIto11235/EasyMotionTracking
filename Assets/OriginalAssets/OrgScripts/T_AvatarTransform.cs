@@ -7,7 +7,7 @@ using System;
 
 public class T_AvatarTransform : MonoBehaviour
 {
-    [SerializeField] Transform _tAvatar, _nAvatarRightHand;
+    [SerializeField] Transform _nAvaWristR, _nAvaWristL;
 
     // Start is called before the first frame update
     void Start()
@@ -18,14 +18,12 @@ public class T_AvatarTransform : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 sholderL = new Vector3(0.18f, -1.3f, 0.05f);
+        Vector3 basePos = new Vector3(0f, -1.56f, -0.08f);
+        Vector3 targetPos; // tAvaWristLの位置ベクトル
+        Vector3 shiftDir; // tAvaの位置シフトの方向ベクトル
 
-        Transform eye = CameraCache.Main.transform;
-        _tAvatar.position = _nAvatarRightHand.position + sholderL;
-
-        // 第一引数のベクトルを第二引数のベクトルまで回転させるためのQuaternionを作る
-        Quaternion eyeRotate = Quaternion.FromToRotation(Vector3.forward, _nAvatarRightHand.position - eye.position);
-
-        _tAvatar.rotation = Quaternion.Inverse(eyeRotate);
+        targetPos = (_nAvaWristL.position - _nAvaWristR.position).normalized * 0.1f + _nAvaWristR.position; // tAvaの左手をこの位置にしたい
+        shiftDir = targetPos - _nAvaWristL.position;
+        this.transform.position = basePos + shiftDir;
     }
 }

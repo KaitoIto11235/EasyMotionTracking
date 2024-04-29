@@ -20505,6 +20505,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_Log_m9651F263AC137A0D552CD6E4EB71
 {
 	return log(___d0);
 }
+// System.Double System.Math::Exp(System.Double)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_Exp_mEE759571CCEEBF48BDC7B1A1C1B513D3199016A0 (double ___d0, const RuntimeMethod* method)
+{
+	return exp(___d0);
+}
 // System.Double System.Math::Pow(System.Double,System.Double)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_Pow_m53FFF47B517C7F69A1CDC0D4829DCC7C699EDFA8 (double ___x0, double ___y1, const RuntimeMethod* method)
 {
